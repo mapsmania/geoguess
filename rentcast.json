@@ -1,0 +1,6100 @@
+[
+  {
+    "id": "1151-E-222nd-St,-Carson,-CA-90745",
+    "formattedAddress": "1151 E 222nd St, Carson, CA 90745",
+    "addressLine1": "1151 E 222nd St",
+    "addressLine2": null,
+    "city": "Carson",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90745",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 33.825609,
+    "longitude": -118.253241,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "squareFootage": 1483,
+    "lotSize": 3335,
+    "yearBuilt": 1964,
+    "status": "Active",
+    "price": 785000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2021-07-02T16:16:07.439Z",
+    "lastSeenDate": "2025-09-02T12:51:02.388Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "DW25158817",
+    "listingAgent": {
+      "name": "Araceli Tacuba",
+      "phone": "8182461099",
+      "email": "ara1902@live.com",
+      "website": "http://aracelitacubarealtor.com"
+    },
+    "listingOffice": {
+      "name": "JohnHart Real Estate",
+      "phone": "8182461099",
+      "email": "johnhart@jhhre.com",
+      "website": "http://www.johnhartrealestate.com/page-free-property-evaluation-33.html"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 785000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "tqADKgW8xswmZd-x4lKRCw",
+      "direction": 15,
+      "panoramaLat": 33.825446,
+      "panoramaLng": -118.253294,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "7700-Mcgroarty-St,-Tujunga,-CA-91042",
+    "formattedAddress": "7700 Mcgroarty St, Tujunga, CA 91042",
+    "addressLine1": "7700 Mcgroarty St",
+    "addressLine2": null,
+    "city": "Tujunga",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91042",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.251171,
+    "longitude": -118.300073,
+    "propertyType": "Single Family",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 934,
+    "lotSize": 65361,
+    "yearBuilt": 1948,
+    "status": "Active",
+    "price": 1150000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2023-06-24T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.386Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "GD25154393",
+    "listingAgent": {
+      "name": "Kristina Ter-ovsepyan",
+      "phone": "8182461099",
+      "email": "kristina@jhagents.com"
+    },
+    "listingOffice": {
+      "name": "JohnHart Real Estate",
+      "phone": "8182461099",
+      "email": "johnhart@jhhre.com"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 1150000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "KCJQBeZWJolJUZJ59EaSyA",
+      "direction": 218,
+      "panoramaLat": 34.251519,
+      "panoramaLng": -118.29974,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "640-S-Azusa-Ave,-West-Covina,-CA-91791",
+    "formattedAddress": "640 S Azusa Ave, West Covina, CA 91791",
+    "addressLine1": "640 S Azusa Ave",
+    "addressLine2": null,
+    "city": "West Covina",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91791",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.063144,
+    "longitude": -117.907497,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 3.5,
+    "squareFootage": 2426,
+    "lotSize": 15682,
+    "yearBuilt": 1956,
+    "status": "Active",
+    "price": 1070000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2022-12-13T09:04:07.063Z",
+    "lastSeenDate": "2025-09-02T12:51:02.385Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "PW25163282",
+    "listingAgent": {
+      "name": "Anh Quan Vu Nguyen",
+      "phone": "9495919365",
+      "email": "anhquan.realty@gmail.com"
+    },
+    "listingOffice": {
+      "name": "Greenfield Realty",
+      "phone": "7147754659",
+      "email": "caibien@yahoo.com"
+    },
+    "history": {
+      "2025-04-16": {
+        "event": "Sale Listing",
+        "price": 1249000,
+        "listingType": "Standard",
+        "listedDate": "2025-04-16T00:00:00.000Z",
+        "removedDate": "2025-05-23T00:00:00.000Z",
+        "daysOnMarket": 37
+      },
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 1070000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "NQ0qnvhaQOzqOqmh2aCUug",
+      "direction": 98,
+      "panoramaLat": 34.063173,
+      "panoramaLng": -117.907761,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "4228-W-178th-St,-Torrance,-CA-90504",
+    "formattedAddress": "4228 W 178th St, Torrance, CA 90504",
+    "addressLine1": "4228 W 178th St",
+    "addressLine2": null,
+    "city": "Torrance",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90504",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 33.868571,
+    "longitude": -118.349347,
+    "propertyType": "Single Family",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 832,
+    "lotSize": 5000,
+    "yearBuilt": 1950,
+    "status": "Active",
+    "price": 910000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.383Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "PV25158482",
+    "listingAgent": {
+      "name": "Denise O\u0027neil",
+      "phone": "3103701020",
+      "email": "denise@deniseoneil.com",
+      "website": "http://www.deniseoneil.com"
+    },
+    "listingOffice": {
+      "name": "O\u0027Neil \u0026 Associate Realtors",
+      "phone": "3103656846"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 910000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "kW6Z6q_MOSzop5YDwa9A5Q",
+      "direction": 169,
+      "panoramaLat": 33.868808,
+      "panoramaLng": -118.349403,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "18517-Betty-Way,-Cerritos,-CA-90703",
+    "formattedAddress": "18517 Betty Way, Cerritos, CA 90703",
+    "addressLine1": "18517 Betty Way",
+    "addressLine2": null,
+    "city": "Cerritos",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90703",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 33.86386,
+    "longitude": -118.043505,
+    "propertyType": "Single Family",
+    "bedrooms": 7,
+    "bathrooms": 2,
+    "squareFootage": 2560,
+    "lotSize": 5120,
+    "yearBuilt": 1971,
+    "status": "Active",
+    "price": 1449900,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.381Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "RS25092682",
+    "listingAgent": {
+      "name": "Thomas Yokoyama",
+      "phone": "5628602571",
+      "email": "c21wiseolowl@gmail.com"
+    },
+    "listingOffice": {
+      "name": "Century 21 Diamond",
+      "phone": "5628602571",
+      "email": "budcabalu@gmail.com"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 1449900,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "1gPJv_W9cMmFd70mlVFxgQ",
+      "direction": 299,
+      "panoramaLat": 33.863778,
+      "panoramaLng": -118.043327,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "1328-N-Ogden-Dr,-Los-Angeles,-CA-90046",
+    "formattedAddress": "1328 N Ogden Dr, Los Angeles, CA 90046",
+    "addressLine1": "1328 N Ogden Dr",
+    "addressLine2": null,
+    "city": "Los Angeles",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90046",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.095302,
+    "longitude": -118.358937,
+    "propertyType": "Single Family",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 1271,
+    "lotSize": 6753,
+    "yearBuilt": 1919,
+    "status": "Active",
+    "price": 1799000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.381Z",
+    "daysOnMarket": 44,
+    "mlsName": "TheMLSCLAW",
+    "mlsNumber": "25567571",
+    "listingAgent": {
+      "name": "Bill Lustig",
+      "phone": "3107700283",
+      "email": "bill@billlustig.com",
+      "website": "https://www.billlustig.com"
+    },
+    "listingOffice": {
+      "name": "COMPASS",
+      "phone": "3106526285",
+      "email": "relocation@compass.com",
+      "website": "http://www.compass.com"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 1799000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "mppK0fi3dMgoVaRCBscBig",
+      "direction": 89,
+      "panoramaLat": 34.095297,
+      "panoramaLng": -118.359289,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "4639-El-Camino-Corto,-La-Canada-Flintridge,-CA-91011",
+    "formattedAddress": "4639 El Camino Corto, La Canada Flintridge, CA 91011",
+    "addressLine1": "4639 El Camino Corto",
+    "addressLine2": null,
+    "city": "La Canada Flintridge",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91011",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.213405,
+    "longitude": -118.213663,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "squareFootage": 2898,
+    "lotSize": 15134,
+    "yearBuilt": 1961,
+    "status": "Active",
+    "price": 2295000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-04-01T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.379Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "P1-23320",
+    "listingAgent": {
+      "name": "Darrell Done",
+      "phone": "6263543551",
+      "email": "darrell@darrelldone.com",
+      "website": "http://www.darrelldone.com/"
+    },
+    "listingOffice": {
+      "name": "Coldwell Banker Residential Brokerage - Pasadena",
+      "phone": "6265840050",
+      "email": "ibeth.zertuche@camoves.com",
+      "website": "https://www.coldwellbankerhomes.com//ca/pasadena/office/pasadena/oid_5691/"
+    },
+    "history": {
+      "2025-03-31": {
+        "event": "Sale Listing",
+        "price": 2695000,
+        "listingType": "Standard",
+        "listedDate": "2025-03-31T00:00:00.000Z",
+        "removedDate": "2025-07-21T00:00:00.000Z",
+        "daysOnMarket": 112
+      },
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 2295000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "IwIIW3JU7EeqkOlYnalMSw",
+      "direction": 274,
+      "panoramaLat": 34.213382,
+      "panoramaLng": -118.213299,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "3775-Amesbury-Rd,-Los-Angeles,-CA-90027",
+    "formattedAddress": "3775 Amesbury Rd, Los Angeles, CA 90027",
+    "addressLine1": "3775 Amesbury Rd",
+    "addressLine2": null,
+    "city": "Los Angeles",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90027",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.117606,
+    "longitude": -118.281025,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "squareFootage": 2510,
+    "lotSize": 30040,
+    "yearBuilt": 1938,
+    "status": "Active",
+    "price": 3500000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.370Z",
+    "daysOnMarket": 44,
+    "mlsName": "TheMLSCLAW",
+    "mlsNumber": "25567715",
+    "listingAgent": {
+      "name": "Eric Purcell",
+      "phone": "3103000464",
+      "email": "eric@ericpurcell.com",
+      "website": "http://ericpurcell.com"
+    },
+    "listingOffice": {
+      "name": "Westside Estate Agency",
+      "phone": "3102477770",
+      "email": "nj@weahomes.com"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 3500000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "CPpV1cvXW4_qUy7zP5YEZA",
+      "direction": 208,
+      "panoramaLat": 34.117687,
+      "panoramaLng": -118.280973,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "6117-Simpson-Ave,-North-Hollywood,-CA-91606",
+    "formattedAddress": "6117 Simpson Ave, North Hollywood, CA 91606",
+    "addressLine1": "6117 Simpson Ave",
+    "addressLine2": null,
+    "city": "North Hollywood",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91606",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.181791,
+    "longitude": -118.38919,
+    "propertyType": "Single Family",
+    "bedrooms": 5,
+    "bathrooms": 2,
+    "squareFootage": 1971,
+    "lotSize": 6762,
+    "yearBuilt": 1938,
+    "status": "Active",
+    "price": 999000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.368Z",
+    "daysOnMarket": 44,
+    "mlsName": "TheMLSCLAW",
+    "mlsNumber": "25562775",
+    "listingAgent": {
+      "name": "Josephine Rossi",
+      "phone": "8184863983",
+      "email": "j.rossi@cbrealty.com",
+      "website": "http://www.j-rossi.com"
+    },
+    "listingOffice": {
+      "name": "Coldwell Banker Realty - Sherman Oaks",
+      "phone": "8189952424",
+      "email": "900624.lead@leads.leadrouter.com",
+      "website": "https://www.coldwellbankerhomes.com/ca/sherman-oaks/office/sherman-oaks/oid_5968/"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 999000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "g-ZxJ7bV8miMLJMeAFSlyw",
+      "direction": 270,
+      "panoramaLat": 34.181792,
+      "panoramaLng": -118.388897,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "27061-Helmond-Dr,-Agoura-Hills,-CA-91301",
+    "formattedAddress": "27061 Helmond Dr, Agoura Hills, CA 91301",
+    "addressLine1": "27061 Helmond Dr",
+    "addressLine2": null,
+    "city": "Agoura Hills",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91301",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.142484,
+    "longitude": -118.715597,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "squareFootage": 2375,
+    "lotSize": 10032,
+    "yearBuilt": 1965,
+    "status": "Active",
+    "price": 1149000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.368Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "PW25162709",
+    "listingAgent": {
+      "name": "Daniel Taylor",
+      "phone": "7143718000",
+      "email": "dtaylor@praxispacificlaw.com",
+      "website": "cremgroupre.com"
+    },
+    "listingOffice": {
+      "name": "COMPASS",
+      "phone": "7144062880"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 1149000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "9z3POyKu2a4EGX8xb3HtiQ",
+      "direction": 15,
+      "panoramaLat": 34.142303,
+      "panoramaLng": -118.715657,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "8500-Mcconnell-Ave,-Los-Angeles,-CA-90045",
+    "formattedAddress": "8500 Mcconnell Ave, Los Angeles, CA 90045",
+    "addressLine1": "8500 Mcconnell Ave",
+    "addressLine2": null,
+    "city": "Los Angeles",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90045",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 33.961488,
+    "longitude": -118.410331,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1713,
+    "lotSize": 6038,
+    "yearBuilt": 1947,
+    "status": "Active",
+    "price": 1795000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.367Z",
+    "daysOnMarket": 44,
+    "mlsName": "TheMLSCLAW",
+    "mlsNumber": "25562823",
+    "listingAgent": {
+      "name": "Daniel Mishevski",
+      "phone": "3107247100",
+      "email": "dannym@rodeore.com"
+    },
+    "listingOffice": {
+      "name": "Keller Williams Realty South Bay",
+      "phone": "3103753511",
+      "email": "scjrealty1@aol.com"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 1795000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "h7HSygqhSCVa0baRNeeykA",
+      "direction": 61,
+      "panoramaLat": 33.961362,
+      "panoramaLng": -118.410606,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "7303-Via,-Rio-Nido,-Downey,-CA-90241",
+    "formattedAddress": "7303 Via, Rio Nido, Downey, CA 90241",
+    "addressLine1": "7303 Via",
+    "addressLine2": "Rio Nido",
+    "city": "Downey",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90241",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 33.956997,
+    "longitude": -118.144531,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "squareFootage": 1738,
+    "lotSize": 9550,
+    "yearBuilt": 1950,
+    "status": "Active",
+    "price": 1299999,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.366Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "DW25159898",
+    "listingAgent": {
+      "name": "Tanairy Felix",
+      "phone": "5622610900",
+      "email": "tanairyfelix@gmail.com"
+    },
+    "listingOffice": {
+      "name": "eXp Realty of California Inc.",
+      "phone": "8888327179",
+      "email": "ray@raymarquez.com",
+      "website": "https://ca.exprealty.com/"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 1299999,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "6s-CQG6_U9MmeKMw_NHRJw",
+      "direction": 133,
+      "panoramaLat": 33.957117,
+      "panoramaLng": -118.144686,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "27056-Shorewood-Rd,-Rancho-Palos-Verdes,-CA-90275",
+    "formattedAddress": "27056 Shorewood Rd, Rancho Palos Verdes, CA 90275",
+    "addressLine1": "27056 Shorewood Rd",
+    "addressLine2": null,
+    "city": "Rancho Palos Verdes",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90275",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 33.779673,
+    "longitude": -118.377824,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1713,
+    "lotSize": 9219,
+    "yearBuilt": 1958,
+    "status": "Active",
+    "price": 1599500,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.366Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "PV25158684",
+    "listingAgent": {
+      "name": "Jeff Kashanchi",
+      "phone": "3102100743",
+      "email": "jeffkashanchi@hotmail.com",
+      "website": "http://www.kashanchi.com/216595.html"
+    },
+    "listingOffice": {
+      "name": "Estate Properties",
+      "phone": "3105449999",
+      "email": "info@estateproperties.com",
+      "website": "https://estateproperties.com/"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 1599500,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "GVL1_gXOzxY7PPtpcZYoig",
+      "direction": 124,
+      "panoramaLat": 33.779807,
+      "panoramaLng": -118.378063,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "4402-Ledge-Ave,-Toluca-Lake,-CA-91602",
+    "formattedAddress": "4402 Ledge Ave, Toluca Lake, CA 91602",
+    "addressLine1": "4402 Ledge Ave",
+    "addressLine2": null,
+    "city": "Toluca Lake",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91602",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.150567,
+    "longitude": -118.356766,
+    "propertyType": "Single Family",
+    "bedrooms": 5,
+    "bathrooms": 3.5,
+    "squareFootage": 4531,
+    "lotSize": 8062,
+    "yearBuilt": 2017,
+    "status": "Active",
+    "price": 4295000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-03-23T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.365Z",
+    "daysOnMarket": 44,
+    "mlsName": "TheMLSCLAW",
+    "mlsNumber": "25567741",
+    "listingAgent": {
+      "name": "Craig Strong",
+      "phone": "8184539104",
+      "email": "craig@strongrealtor.com",
+      "website": "http://www.strongrealtor.com"
+    },
+    "listingOffice": {
+      "name": "Compass"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 4295000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "qAMuFzeRKUAHXEaZLBYN1A",
+      "direction": 15,
+      "panoramaLat": 34.150421,
+      "panoramaLng": -118.356812,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "4273-Murietta-Ave,-Sherman-Oaks,-CA-91423",
+    "formattedAddress": "4273 Murietta Ave, Sherman Oaks, CA 91423",
+    "addressLine1": "4273 Murietta Ave",
+    "addressLine2": null,
+    "city": "Sherman Oaks",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91423",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.148369,
+    "longitude": -118.438701,
+    "propertyType": "Single Family",
+    "bedrooms": 6,
+    "bathrooms": 6.5,
+    "squareFootage": 4610,
+    "lotSize": 6999,
+    "yearBuilt": 2025,
+    "status": "Active",
+    "price": 4299900,
+    "listingType": "New Construction",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2023-11-04T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.365Z",
+    "daysOnMarket": 44,
+    "mlsName": "TheMLSCLAW",
+    "mlsNumber": "25565797",
+    "listingAgent": {
+      "name": "Danielle Peretz",
+      "phone": "8186441477",
+      "email": "danielleperetz@realtyagent.com"
+    },
+    "listingOffice": {
+      "name": "The Beverly Hills Estates Inc.",
+      "phone": "3106264248"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 4299900,
+        "listingType": "New Construction",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "HHculXEcNIdxR6NZC2uM-Q",
+      "direction": 274,
+      "panoramaLat": 34.14835,
+      "panoramaLng": -118.438392,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "6010-S-Verdun-Ave,-Los-Angeles,-CA-90043",
+    "formattedAddress": "6010 S Verdun Ave, Los Angeles, CA 90043",
+    "addressLine1": "6010 S Verdun Ave",
+    "addressLine2": null,
+    "city": "Los Angeles",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90043",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 33.984926,
+    "longitude": -118.346079,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1315,
+    "lotSize": 5844,
+    "yearBuilt": 1929,
+    "status": "Active",
+    "price": 1069999,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-03-29T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.363Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "DW25162398",
+    "listingAgent": {
+      "name": "Jeremy Sifuentes",
+      "phone": "5627608162",
+      "email": "jeremy4homes2019@gmail.com"
+    },
+    "listingOffice": {
+      "name": "CENTURY 21 A Better Service Realty",
+      "phone": "5628061000",
+      "email": "dsarinana@aol.com",
+      "website": "http://www.c21abetterservice.com/"
+    },
+    "history": {
+      "2025-03-28": {
+        "event": "Sale Listing",
+        "price": 1199000,
+        "listingType": "Standard",
+        "listedDate": "2025-03-28T00:00:00.000Z",
+        "removedDate": "2025-06-19T00:00:00.000Z",
+        "daysOnMarket": 83
+      },
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 1069999,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "AcfFKeix0U-ESHymNNc3_g",
+      "direction": 102,
+      "panoramaLat": 33.984983,
+      "panoramaLng": -118.346417,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "1175-N-Mentor-Ave,-Pasadena,-CA-91104",
+    "formattedAddress": "1175 N Mentor Ave, Pasadena, CA 91104",
+    "addressLine1": "1175 N Mentor Ave",
+    "addressLine2": null,
+    "city": "Pasadena",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91104",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.166261,
+    "longitude": -118.131386,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1143,
+    "lotSize": 9617,
+    "yearBuilt": 1905,
+    "status": "Active",
+    "price": 950000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2022-08-06T07:23:58.663Z",
+    "lastSeenDate": "2025-09-02T12:51:02.362Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "HD25163498",
+    "listingAgent": {
+      "name": "Steve S Kim",
+      "phone": "7608108888",
+      "email": "stevekim@newstarrealty.com"
+    },
+    "listingOffice": {
+      "name": "Newstar Realty \u0026 Investment",
+      "phone": "9099458899",
+      "email": "jennynam@newstarrealty.com"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 950000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "4mliYFD2VO1cVV2aX-wzig",
+      "direction": 262,
+      "panoramaLat": 34.1663,
+      "panoramaLng": -118.131059,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "1514-Willow-Dr,-Topanga,-CA-90290",
+    "formattedAddress": "1514 Willow Dr, Topanga, CA 90290",
+    "addressLine1": "1514 Willow Dr",
+    "addressLine2": null,
+    "city": "Topanga",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90290",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.104986,
+    "longitude": -118.628231,
+    "propertyType": "Single Family",
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "squareFootage": 3301,
+    "lotSize": 9563,
+    "yearBuilt": 1981,
+    "status": "Active",
+    "price": 2800000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.362Z",
+    "daysOnMarket": 44,
+    "mlsName": "TheMLSCLAW",
+    "mlsNumber": "25567023",
+    "listingAgent": {
+      "name": "Drew Snyder \u0026 Sarah Sutton",
+      "phone": "3108647123",
+      "email": "snydersuttonrealestate@gmail.com",
+      "website": "http://www.welcometotopanga.com"
+    },
+    "listingOffice": {
+      "name": "SNYDER SUTTON REAL ESTATE",
+      "phone": "3104630311",
+      "email": "theteam@snydersutton.com",
+      "website": "http://www.snydersutton.com"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 2800000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "T455B7RAwRvyYe60MnrQVw",
+      "direction": 253,
+      "panoramaLat": 34.105074,
+      "panoramaLng": -118.627885,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "4961-Noeline-Ave,-Encino,-CA-91436",
+    "formattedAddress": "4961 Noeline Ave, Encino, CA 91436",
+    "addressLine1": "4961 Noeline Ave",
+    "addressLine2": null,
+    "city": "Encino",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91436",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.160344,
+    "longitude": -118.490329,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 2.5,
+    "squareFootage": 3454,
+    "lotSize": 9783,
+    "yearBuilt": 1963,
+    "status": "Active",
+    "price": 3495000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-06-03T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.361Z",
+    "daysOnMarket": 44,
+    "mlsName": "TheMLSCLAW",
+    "mlsNumber": "25566309",
+    "listingAgent": {
+      "name": "Craig Strong",
+      "phone": "8184539104",
+      "email": "craig@strongrealtor.com",
+      "website": "http://www.strongrealtor.com"
+    },
+    "listingOffice": {
+      "name": "Compass"
+    },
+    "history": {
+      "2025-06-02": {
+        "event": "Sale Listing",
+        "price": 3195000,
+        "listingType": "Standard",
+        "listedDate": "2025-06-02T00:00:00.000Z",
+        "removedDate": "2025-06-29T00:00:00.000Z",
+        "daysOnMarket": 27
+      },
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 3495000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "9Ae8eT9lCRz5jKL444TwIg",
+      "direction": 283,
+      "panoramaLat": 34.160289,
+      "panoramaLng": -118.49003,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "12512-Valley-Vista-Way,-Sylmar,-CA-91342",
+    "formattedAddress": "12512 Valley Vista Way, Sylmar, CA 91342",
+    "addressLine1": "12512 Valley Vista Way",
+    "addressLine2": null,
+    "city": "Sylmar",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91342",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.311643,
+    "longitude": -118.404055,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFootage": 2885,
+    "lotSize": 3590259,
+    "yearBuilt": 2003,
+    "hoa": {
+      "fee": 230
+    },
+    "status": "Active",
+    "price": 949000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.360Z",
+    "daysOnMarket": 44,
+    "mlsName": "TheMLSCLAW",
+    "mlsNumber": "25567777",
+    "listingAgent": {
+      "name": "Jonathan Lee",
+      "phone": "8188540037",
+      "email": "soldbyjon@gmail.com",
+      "website": "soldbyjon@gmail.com"
+    },
+    "listingOffice": {
+      "name": "Sunnyside Group",
+      "phone": "2132903771"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 949000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": null,
+      "direction": null,
+      "panoramaLat": null,
+      "panoramaLng": null,
+      "hasStreetView": false
+    }
+  },
+  {
+    "id": "1130-Windsor-Pl,-South-Pasadena,-CA-91030",
+    "formattedAddress": "1130 Windsor Pl, South Pasadena, CA 91030",
+    "addressLine1": "1130 Windsor Pl",
+    "addressLine2": null,
+    "city": "South Pasadena",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91030",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.112514,
+    "longitude": -118.153898,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "squareFootage": 2748,
+    "lotSize": 7100,
+    "yearBuilt": 1908,
+    "status": "Active",
+    "price": 2780000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2022-08-17T11:10:28.178Z",
+    "lastSeenDate": "2025-09-02T12:51:02.360Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "PF25158990",
+    "listingAgent": {
+      "name": "Gretchen B. B Seager",
+      "phone": "6262290909",
+      "email": "gretchen.seager@sothebys.realty"
+    },
+    "listingOffice": {
+      "name": "Sotheby\u0027s International Realty"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 2780000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "RgWm6-TQQSAWUYubl3PVSA",
+      "direction": 98,
+      "panoramaLat": 34.112552,
+      "panoramaLng": -118.154217,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "48801-97th-St-E,-Lancaster,-CA-93535",
+    "formattedAddress": "48801 97th St E, Lancaster, CA 93535",
+    "addressLine1": "48801 97th St E",
+    "addressLine2": null,
+    "city": "Lancaster",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "93535",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.771962,
+    "longitude": -117.958789,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "squareFootage": 2378,
+    "lotSize": 1742400,
+    "yearBuilt": 1958,
+    "status": "Active",
+    "price": 580000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2023-02-06T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.358Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "WS25151893",
+    "listingAgent": {
+      "name": "Bryan Yung",
+      "phone": "6264169000",
+      "email": "bryan.yung@exprealty.com",
+      "website": "https://bryanyung.exprealty.com/"
+    },
+    "listingOffice": {
+      "name": "EXP REALTY",
+      "phone": "8888327179",
+      "email": "ca.broker@exprealty.net",
+      "website": "ca.exprealty.com"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 580000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": null,
+      "direction": null,
+      "panoramaLat": null,
+      "panoramaLng": null,
+      "hasStreetView": false
+    }
+  },
+  {
+    "id": "4054-Stone-Canyon-Ave,-Sherman-Oaks,-CA-91403",
+    "formattedAddress": "4054 Stone Canyon Ave, Sherman Oaks, CA 91403",
+    "addressLine1": "4054 Stone Canyon Ave",
+    "addressLine2": null,
+    "city": "Sherman Oaks",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91403",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.144571,
+    "longitude": -118.460627,
+    "propertyType": "Single Family",
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "squareFootage": 5488,
+    "lotSize": 12054,
+    "yearBuilt": 1936,
+    "status": "Active",
+    "price": 4499000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.357Z",
+    "daysOnMarket": 44,
+    "mlsName": "TheMLSCLAW",
+    "mlsNumber": "25566183",
+    "listingAgent": {
+      "name": "Michael Carter",
+      "phone": "3105084528",
+      "email": "mc@michaelcarterre.com"
+    },
+    "listingOffice": {
+      "name": "COMPASS",
+      "phone": "3102305478",
+      "email": "nathonas.duro@compass.com"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 4499000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "JaSVhkNYXeo6D6uMCBxKwQ",
+      "direction": 81,
+      "panoramaLat": 34.144516,
+      "panoramaLng": -118.461072,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "1067-E-Magnolia-Blvd,-Burbank,-CA-91501",
+    "formattedAddress": "1067 E Magnolia Blvd, Burbank, CA 91501",
+    "addressLine1": "1067 E Magnolia Blvd",
+    "addressLine2": null,
+    "city": "Burbank",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91501",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.194317,
+    "longitude": -118.300291,
+    "propertyType": "Single Family",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 1148,
+    "lotSize": 5998,
+    "yearBuilt": 1924,
+    "status": "Active",
+    "price": 1295000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.356Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "SR25161052",
+    "listingAgent": {
+      "name": "Albert Sanchez",
+      "phone": "8185851599",
+      "email": "asanchez4re@gmail.com",
+      "website": "http://albertsanchez.jhagents.com"
+    },
+    "listingOffice": {
+      "name": "JohnHart Real Estate",
+      "phone": "8182461099",
+      "email": "johnhart@jhhre.com"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 1295000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "QwV1EPDHc0BnWX01OORnjA",
+      "direction": 135,
+      "panoramaLat": 34.194494,
+      "panoramaLng": -118.300503,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "13522-Ardis-Ave,-Bellflower,-CA-90706",
+    "formattedAddress": "13522 Ardis Ave, Bellflower, CA 90706",
+    "addressLine1": "13522 Ardis Ave",
+    "addressLine2": null,
+    "city": "Bellflower",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90706",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 33.908088,
+    "longitude": -118.128309,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1650,
+    "lotSize": 6998,
+    "yearBuilt": 1950,
+    "status": "Active",
+    "price": 918000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-05-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.354Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "TR25161407",
+    "listingAgent": {
+      "name": "Wan Chun Lin",
+      "phone": "9095862918",
+      "email": "tammylin@tarbell.com"
+    },
+    "listingOffice": {
+      "name": "TopSky Realty Inc.",
+      "phone": "2019567927"
+    },
+    "history": {
+      "2025-05-21": {
+        "event": "Sale Listing",
+        "price": 938000,
+        "listingType": "Standard",
+        "listedDate": "2025-05-21T00:00:00.000Z",
+        "removedDate": "2025-06-25T00:00:00.000Z",
+        "daysOnMarket": 35
+      },
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 918000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "DBeT6YS16FsGfqbsauEpug",
+      "direction": 101,
+      "panoramaLat": 33.908145,
+      "panoramaLng": -118.128667,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "12605-Kagel-Canyon-Rd,-Sylmar,-CA-91342",
+    "formattedAddress": "12605 Kagel Canyon Rd, Sylmar, CA 91342",
+    "addressLine1": "12605 Kagel Canyon Rd",
+    "addressLine2": null,
+    "city": "Sylmar",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91342",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.297793,
+    "longitude": -118.376451,
+    "propertyType": "Single Family",
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "squareFootage": 2435,
+    "lotSize": 119029,
+    "yearBuilt": 2011,
+    "status": "Active",
+    "price": 2990000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2023-04-19T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.352Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "WS25161730",
+    "listingAgent": {
+      "name": "Yu Ting Huang",
+      "email": "tim@yourhomesoldguaranteed.com"
+    },
+    "listingOffice": {
+      "name": "Melissa Sui, Broker",
+      "phone": "6265451777",
+      "email": "melissasui777@gmail.com"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 2990000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "kQvgrgqnKmHEUf480qZpKg",
+      "direction": 286,
+      "panoramaLat": 34.297711,
+      "panoramaLng": -118.376113,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "22909-Banyan-Pl,-Unit-235,-Santa-Clarita,-CA-91390",
+    "formattedAddress": "22909 Banyan Pl, Unit 235, Santa Clarita, CA 91390",
+    "addressLine1": "22909 Banyan Pl",
+    "addressLine2": "Unit 235",
+    "city": "Santa Clarita",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91390",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.465134,
+    "longitude": -118.535261,
+    "propertyType": "Townhouse",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1040,
+    "lotSize": 298048,
+    "yearBuilt": 1988,
+    "hoa": {
+      "fee": 246
+    },
+    "status": "Active",
+    "price": 645000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.351Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "SR25156937",
+    "listingAgent": {
+      "name": "Kathy Bost",
+      "phone": "6618033114",
+      "email": "kathybost@remax.net",
+      "website": "http://kathybost.com"
+    },
+    "listingOffice": {
+      "name": "RE MAX of Santa Clarita",
+      "phone": "6612552650",
+      "email": "davidrendall@remax.net"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 645000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": null,
+      "direction": null,
+      "panoramaLat": null,
+      "panoramaLng": null,
+      "hasStreetView": false
+    }
+  },
+  {
+    "id": "9234-Mills-Ave,-Whittier,-CA-90603",
+    "formattedAddress": "9234 Mills Ave, Whittier, CA 90603",
+    "addressLine1": "9234 Mills Ave",
+    "addressLine2": null,
+    "city": "Whittier",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90603",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 33.948239,
+    "longitude": -118.013741,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1365,
+    "lotSize": 6075,
+    "yearBuilt": 1950,
+    "status": "Active",
+    "price": 889000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-06-14T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.350Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "TR25163563",
+    "listingAgent": {
+      "name": "Wan Chun Lin",
+      "phone": "9095862918",
+      "email": "tammylin@tarbell.com"
+    },
+    "listingOffice": {
+      "name": "TopSky Realty Inc.",
+      "phone": "2019567927"
+    },
+    "history": {
+      "2025-06-13": {
+        "event": "Sale Listing",
+        "price": 899000,
+        "listingType": "Standard",
+        "listedDate": "2025-06-13T00:00:00.000Z",
+        "removedDate": "2025-07-18T00:00:00.000Z",
+        "daysOnMarket": 35
+      },
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 889000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "aZsqDHkKdl-UJPl1WTL29w",
+      "direction": 158,
+      "panoramaLat": 33.948504,
+      "panoramaLng": -118.013869,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "37748-Sweetbrush-St,-Palmdale,-CA-93552",
+    "formattedAddress": "37748 Sweetbrush St, Palmdale, CA 93552",
+    "addressLine1": "37748 Sweetbrush St",
+    "addressLine2": null,
+    "city": "Palmdale",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "93552",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.568585,
+    "longitude": -118.036734,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFootage": 2096,
+    "lotSize": 6649,
+    "yearBuilt": 1993,
+    "status": "Active",
+    "price": 539000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.339Z",
+    "daysOnMarket": 44,
+    "mlsName": "GreaterAntelope",
+    "mlsNumber": "25005676",
+    "listingAgent": {
+      "name": "Darlene Sandoval",
+      "phone": "6614716334",
+      "email": "realtor.darlene1@gmail.com"
+    },
+    "listingOffice": {
+      "name": "Real Brokerage Technologies",
+      "phone": "9168487554",
+      "email": "jasonlopez619@gmail.com"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 539000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "RN1-Mq00bQBte_fO5y5gIw",
+      "direction": 90,
+      "panoramaLat": 34.568584,
+      "panoramaLng": -118.037013,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "142-Windermere-Ln,-Glendora,-CA-91741",
+    "formattedAddress": "142 Windermere Ln, Glendora, CA 91741",
+    "addressLine1": "142 Windermere Ln",
+    "addressLine2": null,
+    "city": "Glendora",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91741",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.137834,
+    "longitude": -117.881682,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1357,
+    "lotSize": 3528,
+    "yearBuilt": 1977,
+    "hoa": {
+      "fee": 310
+    },
+    "status": "Active",
+    "price": 790000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.336Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "CV25163494",
+    "listingAgent": {
+      "name": "Gabby Cabrera,  Realtor",
+      "phone": "9099129560",
+      "email": "gabby@gabbycabrera.com"
+    },
+    "listingOffice": {
+      "name": "Synergy One Real Estate Svcs.",
+      "phone": "9513958858",
+      "email": "calinvested@gmail.com",
+      "website": "www.synergyoneres.com\u0060"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 790000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "_v2AfXroLul9rSU_znx7Ag",
+      "direction": 277,
+      "panoramaLat": 34.137795,
+      "panoramaLng": -117.881322,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "9500-Texhoma-Ave,-Northridge,-CA-91325",
+    "formattedAddress": "9500 Texhoma Ave, Northridge, CA 91325",
+    "addressLine1": "9500 Texhoma Ave",
+    "addressLine2": null,
+    "city": "Northridge",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91325",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.243341,
+    "longitude": -118.516381,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFootage": 2820,
+    "lotSize": 14399,
+    "yearBuilt": 1963,
+    "status": "Active",
+    "price": 1399000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-08T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.334Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "SR25163638",
+    "listingAgent": {
+      "name": "Milena Bagdasaryan",
+      "phone": "8189937370",
+      "email": "milenabagdasaryan89@gmail.om"
+    },
+    "listingOffice": {
+      "name": "Pinnacle Estate Properties, Inc.",
+      "phone": "8189937370",
+      "email": "northridge@pinnacleestate.com"
+    },
+    "history": {
+      "2025-07-07": {
+        "event": "Sale Listing",
+        "price": 1499950,
+        "listingType": "Standard",
+        "listedDate": "2025-07-07T00:00:00.000Z",
+        "removedDate": "2025-07-21T00:00:00.000Z",
+        "daysOnMarket": 14
+      },
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 1399000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "1dylfwl6SDNXYxzq2Ha3dA",
+      "direction": 10,
+      "panoramaLat": 34.243128,
+      "panoramaLng": -118.516424,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "4310-Cedarhurst-Cir,-Los-Angeles,-CA-90027",
+    "formattedAddress": "4310 Cedarhurst Cir, Los Angeles, CA 90027",
+    "addressLine1": "4310 Cedarhurst Cir",
+    "addressLine2": null,
+    "city": "Los Angeles",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90027",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.110752,
+    "longitude": -118.283823,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 3.5,
+    "squareFootage": 2644,
+    "lotSize": 6129,
+    "yearBuilt": 1937,
+    "status": "Active",
+    "price": 2995000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-05-24T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.333Z",
+    "daysOnMarket": 44,
+    "mlsName": "TheMLSCLAW",
+    "mlsNumber": "25567947",
+    "listingAgent": {
+      "name": "Christophe Choo",
+      "phone": "3107776200",
+      "email": "christophe@christophechoo.com",
+      "website": "http://bit.ly/2cyc8tn"
+    },
+    "listingOffice": {
+      "name": "Coldwell Banker Realty",
+      "phone": "3107776200",
+      "email": "daniel.signani@cbrealty.com",
+      "website": "https://www.coldwellbankerhomes.com//ca/beverly-hills/office/beverly-hills/oid_5145/"
+    },
+    "history": {
+      "2024-05-23": {
+        "event": "Sale Listing",
+        "price": 2900000,
+        "listingType": "Standard",
+        "listedDate": "2024-05-23T00:00:00.000Z",
+        "removedDate": "2025-07-21T00:00:00.000Z",
+        "daysOnMarket": 424
+      },
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 2995000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "vfQtOCgs7vOlVvuzmp301A",
+      "direction": 265,
+      "panoramaLat": 34.110766,
+      "panoramaLng": -118.283638,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "10673-Saticoy-St,-Sun-Valley,-CA-91352",
+    "formattedAddress": "10673 Saticoy St, Sun Valley, CA 91352",
+    "addressLine1": "10673 Saticoy St",
+    "addressLine2": null,
+    "city": "Sun Valley",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91352",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.208766,
+    "longitude": -118.363543,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "squareFootage": 1066,
+    "lotSize": 7011,
+    "yearBuilt": 1948,
+    "status": "Active",
+    "price": 775000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.332Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "DW25160676",
+    "listingAgent": {
+      "name": "Claudia Fernandez",
+      "phone": "3233788363",
+      "email": "cfernandez1387@gmail.com"
+    },
+    "listingOffice": {
+      "name": "ROA California Inc.",
+      "phone": "6197797200",
+      "email": "ca.broker@realtyofamerica.com"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 775000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "0r5MknejfC3Na0NnadTQNQ",
+      "direction": 186,
+      "panoramaLat": 34.208936,
+      "panoramaLng": -118.363522,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "13929-Highlander-Rd,-La-Mirada,-CA-90638",
+    "formattedAddress": "13929 Highlander Rd, La Mirada, CA 90638",
+    "addressLine1": "13929 Highlander Rd",
+    "addressLine2": null,
+    "city": "La Mirada",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90638",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 33.904643,
+    "longitude": -117.979601,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFootage": 2464,
+    "lotSize": 7412,
+    "yearBuilt": 2002,
+    "hoa": {
+      "fee": 310
+    },
+    "status": "Active",
+    "price": 1470000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-09-07T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.332Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "OC25151103",
+    "listingAgent": {
+      "name": "Viviana Kim",
+      "phone": "7148754339",
+      "email": "vivkimrealestate@gmail.com",
+      "website": "http://vivianakim.com/"
+    },
+    "listingOffice": {
+      "name": "Major League Properties",
+      "phone": "7144121982",
+      "email": "mlsinfo@sideinc.com"
+    },
+    "history": {
+      "2024-09-06": {
+        "event": "Sale Listing",
+        "price": 1555000,
+        "listingType": "Standard",
+        "listedDate": "2024-09-06T00:00:00.000Z",
+        "removedDate": "2024-12-02T00:00:00.000Z",
+        "daysOnMarket": 87
+      },
+      "2025-02-14": {
+        "event": "Sale Listing",
+        "price": 1448000,
+        "listingType": "Standard",
+        "listedDate": "2025-02-14T00:00:00.000Z",
+        "removedDate": "2025-06-21T00:00:00.000Z",
+        "daysOnMarket": 127
+      },
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 1470000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": null,
+      "direction": null,
+      "panoramaLat": null,
+      "panoramaLng": null,
+      "hasStreetView": false
+    }
+  },
+  {
+    "id": "6650-Sale-Ave,-West-Hills,-CA-91307",
+    "formattedAddress": "6650 Sale Ave, West Hills, CA 91307",
+    "addressLine1": "6650 Sale Ave",
+    "addressLine2": null,
+    "city": "West Hills",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91307",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.191585,
+    "longitude": -118.618254,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "squareFootage": 1439,
+    "lotSize": 7553,
+    "yearBuilt": 1957,
+    "status": "Active",
+    "price": 899000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.331Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "SR25163406",
+    "listingAgent": {
+      "name": "Scott Israel",
+      "phone": "8184868115"
+    },
+    "listingOffice": {
+      "name": "Keller Williams Westlake Village",
+      "phone": "8057777777",
+      "email": "klrw207@kw.com",
+      "website": "http://westlakevillage.yourkwoffice.com/"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 899000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "2z5E5OoOr_OqbOncJIpUDg",
+      "direction": 98,
+      "panoramaLat": 34.19162,
+      "panoramaLng": -118.618557,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "1877-Rising-Glen-Rd,-Los-Angeles,-CA-90069",
+    "formattedAddress": "1877 Rising Glen Rd, Los Angeles, CA 90069",
+    "addressLine1": "1877 Rising Glen Rd",
+    "addressLine2": null,
+    "city": "Los Angeles",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90069",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.104072,
+    "longitude": -118.384915,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 6,
+    "squareFootage": 8339,
+    "lotSize": 23100,
+    "yearBuilt": 2015,
+    "status": "Active",
+    "price": 14499000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2022-08-30T08:27:02.276Z",
+    "lastSeenDate": "2025-09-02T12:51:02.331Z",
+    "daysOnMarket": 44,
+    "mlsName": "TheMLSCLAW",
+    "mlsNumber": "25567093",
+    "listingAgent": {
+      "name": "Adisa Aditheparot",
+      "phone": "4243455999",
+      "email": "adisa.adith@gmail.com"
+    },
+    "listingOffice": {
+      "name": "Christie\u0027s AKG",
+      "phone": "4242497162"
+    },
+    "history": {
+      "2025-01-13": {
+        "event": "Sale Listing",
+        "price": 14950000,
+        "listingType": "Standard",
+        "listedDate": "2025-01-13T00:00:00.000Z",
+        "removedDate": "2025-03-24T00:00:00.000Z",
+        "daysOnMarket": 70
+      },
+      "2025-03-24": {
+        "event": "Sale Listing",
+        "price": 14899000,
+        "listingType": "Standard",
+        "listedDate": "2025-03-24T00:00:00.000Z",
+        "removedDate": "2025-07-21T00:00:00.000Z",
+        "daysOnMarket": 119
+      },
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 14499000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "CLtc6BxgqMaSo6uNYWfznw",
+      "direction": 221,
+      "panoramaLat": 34.104276,
+      "panoramaLng": -118.3847,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "11202-Candor-St,-Cerritos,-CA-90703",
+    "formattedAddress": "11202 Candor St, Cerritos, CA 90703",
+    "addressLine1": "11202 Candor St",
+    "addressLine2": null,
+    "city": "Cerritos",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90703",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 33.85614,
+    "longitude": -118.094532,
+    "propertyType": "Single Family",
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "squareFootage": 2326,
+    "lotSize": 5694,
+    "yearBuilt": 1968,
+    "status": "Active",
+    "price": 1499000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-07-25T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.330Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "RS25163599",
+    "listingAgent": {
+      "name": "Cielo Quinio",
+      "phone": "5629243381",
+      "email": "cielo@cielorealtor.com"
+    },
+    "listingOffice": {
+      "name": "CENTURY 21 Astro",
+      "phone": "5629243381",
+      "email": "lrosenk@gmail.com",
+      "website": "http://century21astro.com/"
+    },
+    "history": {
+      "2025-03-01": {
+        "event": "Sale Listing",
+        "price": 1548000,
+        "listingType": "Standard",
+        "listedDate": "2025-03-01T00:00:00.000Z",
+        "removedDate": "2025-04-08T00:00:00.000Z",
+        "daysOnMarket": 38
+      },
+      "2025-05-16": {
+        "event": "Sale Listing",
+        "price": 1499000,
+        "listingType": "Standard",
+        "listedDate": "2025-05-16T00:00:00.000Z",
+        "removedDate": "2025-06-21T00:00:00.000Z",
+        "daysOnMarket": 36
+      },
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 1499000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "Jaw18O6ZtCQEMxE7wOx1WA",
+      "direction": 99,
+      "panoramaLat": 33.856169,
+      "panoramaLng": -118.094743,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "548-Live-Oak-Circle-Dr,-Calabasas,-CA-91302",
+    "formattedAddress": "548 Live Oak Circle Dr, Calabasas, CA 91302",
+    "addressLine1": "548 Live Oak Circle Dr",
+    "addressLine2": null,
+    "city": "Calabasas",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91302",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.07936,
+    "longitude": -118.696093,
+    "propertyType": "Single Family",
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "squareFootage": 2335,
+    "lotSize": 46174,
+    "yearBuilt": 1974,
+    "hoa": {
+      "fee": 25
+    },
+    "status": "Active",
+    "price": 2500000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.329Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "V1-31184",
+    "listingAgent": {
+      "name": "Nicole Scurrah",
+      "phone": "8052568289",
+      "email": "nscurrah@yahoo.com"
+    },
+    "listingOffice": {
+      "name": "Kr Realtors",
+      "phone": "8056394111",
+      "email": "krrealtors2@sbcglobal.net"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 2500000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": null,
+      "direction": null,
+      "panoramaLat": null,
+      "panoramaLng": null,
+      "hasStreetView": false
+    }
+  },
+  {
+    "id": "17177-Adlon-Rd,-Encino,-CA-91436",
+    "formattedAddress": "17177 Adlon Rd, Encino, CA 91436",
+    "addressLine1": "17177 Adlon Rd",
+    "addressLine2": null,
+    "city": "Encino",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91436",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.144219,
+    "longitude": -118.506964,
+    "propertyType": "Single Family",
+    "bedrooms": 6,
+    "bathrooms": 8,
+    "squareFootage": 8504,
+    "lotSize": 24921,
+    "yearBuilt": 2025,
+    "status": "Active",
+    "price": 9999995,
+    "listingType": "New Construction",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-02-07T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.329Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "SR25163620",
+    "listingAgent": {
+      "name": "David Shemesh",
+      "phone": "3109195470",
+      "email": "david@iknowyourhomevalue.com",
+      "website": "http://www.iknowyourhomevalue.com"
+    },
+    "listingOffice": {
+      "name": "Keller Williams Realty Calabasas",
+      "phone": "8186576500",
+      "email": "meny@kw.com",
+      "website": "http://www.kwcalabasas.com/"
+    },
+    "history": {
+      "2025-02-06": {
+        "event": "Sale Listing",
+        "price": 10888000,
+        "listingType": "New Construction",
+        "listedDate": "2025-02-06T00:00:00.000Z",
+        "removedDate": "2025-03-20T00:00:00.000Z",
+        "daysOnMarket": 42
+      },
+      "2025-03-27": {
+        "event": "Sale Listing",
+        "price": 10555000,
+        "listingType": "New Construction",
+        "listedDate": "2025-03-27T00:00:00.000Z",
+        "removedDate": "2025-07-21T00:00:00.000Z",
+        "daysOnMarket": 116
+      },
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 9999995,
+        "listingType": "New Construction",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": null,
+      "direction": null,
+      "panoramaLat": null,
+      "panoramaLng": null,
+      "hasStreetView": false
+    }
+  },
+  {
+    "id": "2297-Midlothian-Dr,-Altadena,-CA-91001",
+    "formattedAddress": "2297 Midlothian Dr, Altadena, CA 91001",
+    "addressLine1": "2297 Midlothian Dr",
+    "addressLine2": null,
+    "city": "Altadena",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91001",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.18485,
+    "longitude": -118.107733,
+    "propertyType": "Single Family",
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "squareFootage": 3114,
+    "lotSize": 14117,
+    "yearBuilt": 1928,
+    "status": "Active",
+    "price": 2599000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.328Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "PF25158910",
+    "listingAgent": {
+      "name": "Sylva Khayalian",
+      "phone": "6263902545",
+      "email": "sylva.khayalian@redfin.com"
+    },
+    "listingOffice": {
+      "name": "Redfin Corporation",
+      "phone": "3104092885",
+      "email": "mark.bennett@redfin.com",
+      "website": "http://www.redfin.com"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 2599000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "6zR0x3fap37mWP8OsTw2UQ",
+      "direction": 274,
+      "panoramaLat": 34.184832,
+      "panoramaLng": -118.10738,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "19931-Lorne-St,-Winnetka,-CA-91306",
+    "formattedAddress": "19931 Lorne St, Winnetka, CA 91306",
+    "addressLine1": "19931 Lorne St",
+    "addressLine2": null,
+    "city": "Winnetka",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91306",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.217438,
+    "longitude": -118.567844,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1627,
+    "lotSize": 5949,
+    "yearBuilt": 1970,
+    "status": "Active",
+    "price": 849000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.327Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "SR25162618",
+    "listingAgent": {
+      "name": "Goli Emami",
+      "phone": "8186316324",
+      "email": "goliemami@remax.net"
+    },
+    "listingOffice": {
+      "name": "RE MAX One",
+      "phone": "8187086300",
+      "email": "keithmyers@remax.net"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 849000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "mP0lmImhH7ImGW2dNxRDzA",
+      "direction": 7,
+      "panoramaLat": 34.217229,
+      "panoramaLng": -118.567875,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "1126-N-Stone-St,-Los-Angeles,-CA-90063",
+    "formattedAddress": "1126 N Stone St, Los Angeles, CA 90063",
+    "addressLine1": "1126 N Stone St",
+    "addressLine2": null,
+    "city": "Los Angeles",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90063",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.05167,
+    "longitude": -118.192659,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 912,
+    "lotSize": 4382,
+    "yearBuilt": 1926,
+    "status": "Active",
+    "price": 740000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2023-10-17T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.324Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "DW25163904",
+    "listingAgent": {
+      "name": "Francisco Lopez",
+      "phone": "3237227300",
+      "email": "franciscolopez0027@yahoo.com"
+    },
+    "listingOffice": {
+      "name": "CENTURY 21 Realty Masters",
+      "phone": "5626771800",
+      "email": "aruizhouses@yahoo.com"
+    },
+    "history": {
+      "2025-03-06": {
+        "event": "Sale Listing",
+        "price": 759000,
+        "listingType": "Standard",
+        "listedDate": "2025-03-06T00:00:00.000Z",
+        "removedDate": "2025-05-28T00:00:00.000Z",
+        "daysOnMarket": 83
+      },
+      "2025-06-06": {
+        "event": "Sale Listing",
+        "price": 715000,
+        "listingType": "Standard",
+        "listedDate": "2025-06-06T00:00:00.000Z",
+        "removedDate": "2025-07-13T00:00:00.000Z",
+        "daysOnMarket": 37
+      },
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 740000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "l5xgMJUeY6pwq5os2_DHlA",
+      "direction": 61,
+      "panoramaLat": 34.051544,
+      "panoramaLng": -118.19293,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "632-Museum-Dr,-Los-Angeles,-CA-90065",
+    "formattedAddress": "632 Museum Dr, Los Angeles, CA 90065",
+    "addressLine1": "632 Museum Dr",
+    "addressLine2": null,
+    "city": "Los Angeles",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90065",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.105276,
+    "longitude": -118.21092,
+    "propertyType": "Single Family",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareFootage": 597,
+    "lotSize": 3353,
+    "yearBuilt": 1923,
+    "status": "Active",
+    "price": 779000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2022-05-18T16:09:51.249Z",
+    "lastSeenDate": "2025-09-02T12:51:02.324Z",
+    "daysOnMarket": 44,
+    "mlsName": "TheMLSCLAW",
+    "mlsNumber": "25567723",
+    "listingAgent": {
+      "name": "Tracy Do, Agent",
+      "phone": "3238424001",
+      "email": "tracy@tracydo.com",
+      "website": "http://www.tracydo.com"
+    },
+    "listingOffice": {
+      "name": "Coldwell Banker Realty - Pasadena",
+      "phone": "6265840050",
+      "email": "900624.lead@leads.leadrouter.com",
+      "website": "https://www.coldwellbankerhomes.com/ca/pasadena/office/pasadena/oid_5691/"
+    },
+    "history": {
+      "2025-03-28": {
+        "event": "Sale Listing",
+        "price": 849000,
+        "listingType": "Standard",
+        "listedDate": "2025-03-28T00:00:00.000Z",
+        "removedDate": "2025-07-21T00:00:00.000Z",
+        "daysOnMarket": 115
+      },
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 779000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "U_-elSg5AR-1k5U0USdE5Q",
+      "direction": 59,
+      "panoramaLat": 34.105179,
+      "panoramaLng": -118.211118,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "3612-E-Ave,-H9,-Lancaster,-CA-93535",
+    "formattedAddress": "3612 E Ave, H9, Lancaster, CA 93535",
+    "addressLine1": "3612 E Ave",
+    "addressLine2": "H9",
+    "city": "Lancaster",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "93535",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.711192,
+    "longitude": -118.065496,
+    "propertyType": "Single Family",
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "squareFootage": 2632,
+    "lotSize": 5933,
+    "yearBuilt": 2008,
+    "status": "Active",
+    "price": 510000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.322Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "DW25160549",
+    "listingAgent": {
+      "name": "Claudia Fernandez",
+      "phone": "3233788363",
+      "email": "cfernandez1387@gmail.com"
+    },
+    "listingOffice": {
+      "name": "ROA California Inc.",
+      "phone": "6197797200",
+      "email": "ca.broker@realtyofamerica.com"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 510000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "T4qXxyOB_jlquT3NBLELHA",
+      "direction": 81,
+      "panoramaLat": 34.711165,
+      "panoramaLng": -118.065714,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "2207-Bowmont-Dr,-Beverly-Hills,-CA-90210",
+    "formattedAddress": "2207 Bowmont Dr, Beverly Hills, CA 90210",
+    "addressLine1": "2207 Bowmont Dr",
+    "addressLine2": null,
+    "city": "Beverly Hills",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90210",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.112144,
+    "longitude": -118.399412,
+    "propertyType": "Single Family",
+    "bedrooms": 5,
+    "bathrooms": 5.5,
+    "squareFootage": 5455,
+    "lotSize": 35896,
+    "yearBuilt": 2004,
+    "status": "Active",
+    "price": 6250000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-05-14T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.322Z",
+    "daysOnMarket": 44,
+    "mlsName": "TheMLSCLAW",
+    "mlsNumber": "25567885",
+    "listingAgent": {
+      "name": "Kennon Earl",
+      "phone": "2132809620",
+      "email": "kennon@rarepropertiesinc.com"
+    },
+    "listingOffice": {
+      "name": "COMPASS",
+      "phone": "3102305478",
+      "email": "nathonas.duro@compass.com"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 6250000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "ritBf4-FOgBk6DCKrC14CA",
+      "direction": 273,
+      "panoramaLat": 34.112129,
+      "panoramaLng": -118.399113,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "14651-W-Sara-Ln,-Panorama-City,-CA-91402",
+    "formattedAddress": "14651 W Sara Ln, Panorama City, CA 91402",
+    "addressLine1": "14651 W Sara Ln",
+    "addressLine2": null,
+    "city": "Panorama City",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91402",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.236877,
+    "longitude": -118.451859,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "squareFootage": 1739,
+    "lotSize": 1977,
+    "yearBuilt": 2023,
+    "hoa": {
+      "fee": 187
+    },
+    "status": "Active",
+    "price": 815000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-04-30T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.321Z",
+    "daysOnMarket": 44,
+    "mlsName": "TheMLSCLAW",
+    "mlsNumber": "25567979",
+    "listingAgent": {
+      "name": "Christopher Wulff",
+      "phone": "9494128492",
+      "email": "chriswulff@nestseekers.com",
+      "website": "https://christopherwulff.com/"
+    },
+    "listingOffice": {
+      "name": "Revel Real Estate",
+      "phone": "3107175522",
+      "email": "hilary@residebrokerage.com"
+    },
+    "history": {
+      "2025-04-29": {
+        "event": "Sale Listing",
+        "price": 825000,
+        "listingType": "Standard",
+        "listedDate": "2025-04-29T00:00:00.000Z",
+        "removedDate": "2025-06-04T00:00:00.000Z",
+        "daysOnMarket": 36
+      },
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 815000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "0qsPEy7ZUY60W9eZ2kGvFA",
+      "direction": 274,
+      "panoramaLat": 34.236866,
+      "panoramaLng": -118.45168,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "6312-Tahoe-Dr,-Los-Angeles,-CA-90068",
+    "formattedAddress": "6312 Tahoe Dr, Los Angeles, CA 90068",
+    "addressLine1": "6312 Tahoe Dr",
+    "addressLine2": null,
+    "city": "Los Angeles",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90068",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.127691,
+    "longitude": -118.327993,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFootage": 2688,
+    "lotSize": 13280,
+    "yearBuilt": 1974,
+    "status": "Active",
+    "price": 2775000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.320Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "NP25163135",
+    "listingAgent": {
+      "name": "Tyler Brown",
+      "phone": "9492204409",
+      "email": "tyler.brown@compass.com",
+      "website": "https://tylerbrownre.com/"
+    },
+    "listingOffice": {
+      "name": "COMPASS",
+      "phone": "9494384340",
+      "email": "kathy@compass.com"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 2775000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "3E1cvhtSGVH5AuqlddEO1w",
+      "direction": 187,
+      "panoramaLat": 34.127933,
+      "panoramaLng": -118.327956,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "5107-Coldwater-Canyon-Ave,-Unit-10,-Sherman-Oaks,-CA-91423",
+    "formattedAddress": "5107 Coldwater Canyon Ave, Unit 10, Sherman Oaks, CA 91423",
+    "addressLine1": "5107 Coldwater Canyon Ave",
+    "addressLine2": "Unit 10",
+    "city": "Sherman Oaks",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91423",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.163148,
+    "longitude": -118.414304,
+    "propertyType": "Townhouse",
+    "bedrooms": 2,
+    "bathrooms": 2.5,
+    "squareFootage": 1296,
+    "lotSize": 23852,
+    "yearBuilt": 1992,
+    "hoa": {
+      "fee": 524
+    },
+    "status": "Active",
+    "price": 729000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.319Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "SR25162800",
+    "listingAgent": {
+      "name": "Dyana Terranova, Agent",
+      "phone": "8185122234",
+      "email": "homesbydyana@gmail.com",
+      "website": "http://www.homesbydyana.com"
+    },
+    "listingOffice": {
+      "name": "Beverly and Company, Inc.",
+      "phone": "7143681300",
+      "email": "dosman@beverlycompany.com"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 729000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "meYQny9YPEY7MP4KYoacug",
+      "direction": 349,
+      "panoramaLat": 34.163057,
+      "panoramaLng": -118.414282,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "10372-Kimberly-St,-Los-Angeles,-CA-90002",
+    "formattedAddress": "10372 Kimberly St, Los Angeles, CA 90002",
+    "addressLine1": "10372 Kimberly St",
+    "addressLine2": null,
+    "city": "Los Angeles",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90002",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 33.941732,
+    "longitude": -118.240193,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "squareFootage": 1455,
+    "lotSize": 5493,
+    "yearBuilt": 1974,
+    "status": "Active",
+    "price": 660000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.318Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "DW25163887",
+    "listingAgent": {
+      "name": "Fernando Gomez",
+      "phone": "5624773667",
+      "email": "downeyrealtors@aim.com"
+    },
+    "listingOffice": {
+      "name": "Downey, Realtors",
+      "phone": "5629276300",
+      "email": "downeyrealtors@aim.com"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 660000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "BDTJlhw4oal6F3TQUzUPyQ",
+      "direction": 6,
+      "panoramaLat": 33.941531,
+      "panoramaLng": -118.240216,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "6882-Arizona-Ave,-Los-Angeles,-CA-90045",
+    "formattedAddress": "6882 Arizona Ave, Los Angeles, CA 90045",
+    "addressLine1": "6882 Arizona Ave",
+    "addressLine2": null,
+    "city": "Los Angeles",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90045",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 33.97785,
+    "longitude": -118.395519,
+    "propertyType": "Single Family",
+    "bedrooms": 7,
+    "bathrooms": 4,
+    "squareFootage": 9899,
+    "lotSize": 16008,
+    "yearBuilt": 2012,
+    "status": "Active",
+    "price": 6995000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-04-29T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.317Z",
+    "daysOnMarket": 44,
+    "mlsName": "TheMLSCLAW",
+    "mlsNumber": "25567881",
+    "listingAgent": {
+      "name": "Rosanna Eusebio",
+      "phone": "3103843013",
+      "email": "rosanna@rosannaeusebio.com"
+    },
+    "listingOffice": {
+      "name": "COMPASS",
+      "phone": "3102305478",
+      "email": "nathonas.duro@compass.com"
+    },
+    "history": {
+      "2025-04-28": {
+        "event": "Sale Listing",
+        "price": 7500000,
+        "listingType": "Standard",
+        "listedDate": "2025-04-28T00:00:00.000Z",
+        "removedDate": "2025-06-02T00:00:00.000Z",
+        "daysOnMarket": 35
+      },
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 6995000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "Nzq33xVN9y0ROG899OZI7Q",
+      "direction": 95,
+      "panoramaLat": 33.977883,
+      "panoramaLng": -118.395991,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "2057-S-Oxford-Ave,-Los-Angeles,-CA-90018",
+    "formattedAddress": "2057 S Oxford Ave, Los Angeles, CA 90018",
+    "addressLine1": "2057 S Oxford Ave",
+    "addressLine2": null,
+    "city": "Los Angeles",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90018",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.038237,
+    "longitude": -118.308195,
+    "propertyType": "Single Family",
+    "bedrooms": 6,
+    "bathrooms": 2.5,
+    "squareFootage": 3308,
+    "lotSize": 8558,
+    "yearBuilt": 1903,
+    "status": "Active",
+    "price": 1549000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-08-28T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.316Z",
+    "daysOnMarket": 44,
+    "mlsName": "TheMLSCLAW",
+    "mlsNumber": "25567209",
+    "listingAgent": {
+      "name": "Keyanna Rees",
+      "phone": "3103965500",
+      "email": "keyanna.rees@sothebys.realty",
+      "website": "http://keyannarees.com"
+    },
+    "listingOffice": {
+      "name": "COMPASS",
+      "phone": "3104489500",
+      "email": "cristina@cristinawarfield.com"
+    },
+    "history": {
+      "2024-08-28": {
+        "event": "Sale Listing",
+        "price": 1500000,
+        "listingType": "Standard",
+        "listedDate": "2024-08-28T00:00:00.000Z",
+        "removedDate": "2024-10-11T00:00:00.000Z",
+        "daysOnMarket": 44
+      },
+      "2024-11-03": {
+        "event": "Sale Listing",
+        "price": 1420000,
+        "listingType": "Standard",
+        "listedDate": "2024-11-03T00:00:00.000Z",
+        "removedDate": "2024-11-28T00:00:00.000Z",
+        "daysOnMarket": 25
+      },
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 1549000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "GTktac7ERYpxaq4vMXLwAw",
+      "direction": 274,
+      "panoramaLat": 34.03822,
+      "panoramaLng": -118.30788,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "6720-Sherman-Way,-Bell,-CA-90201",
+    "formattedAddress": "6720 Sherman Way, Bell, CA 90201",
+    "addressLine1": "6720 Sherman Way",
+    "addressLine2": null,
+    "city": "Bell",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90201",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 33.973201,
+    "longitude": -118.17515,
+    "propertyType": "Single Family",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 1212,
+    "lotSize": 5472,
+    "yearBuilt": 1948,
+    "status": "Active",
+    "price": 725000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.315Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "DW25163793",
+    "listingAgent": {
+      "name": "Arevalo, Fransisco",
+      "phone": "5629649868",
+      "email": "francisco4homes@yahoo.com"
+    },
+    "listingOffice": {
+      "name": "Excellence RE Real Estate",
+      "phone": "5628621161",
+      "email": "ronmacias730@yahoo.com"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 725000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "qv_HWiYJSrSHL1Q4Mkt4Aw",
+      "direction": 92,
+      "panoramaLat": 33.973207,
+      "panoramaLng": -118.175431,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "22441-Hartland-St,-West-Hills,-CA-91307",
+    "formattedAddress": "22441 Hartland St, West Hills, CA 91307",
+    "addressLine1": "22441 Hartland St",
+    "addressLine2": null,
+    "city": "West Hills",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91307",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.19484,
+    "longitude": -118.616214,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFootage": 2508,
+    "lotSize": 7563,
+    "yearBuilt": 1959,
+    "status": "Active",
+    "price": 1199000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-04-09T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.313Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "SR25163847",
+    "listingAgent": {
+      "name": "David Burg",
+      "phone": "8186746169",
+      "email": "realtordavidburg@gmail.com",
+      "website": "www.free2buyers.com"
+    },
+    "listingOffice": {
+      "name": "R.R.Gable, Inc.",
+      "phone": "8055843444",
+      "email": "kreggable@rrgableinc.com",
+      "website": "rrgablerealestate.com/index.htm"
+    },
+    "history": {
+      "2025-04-08": {
+        "event": "Sale Listing",
+        "price": 1195000,
+        "listingType": "Standard",
+        "listedDate": "2025-04-08T00:00:00.000Z",
+        "removedDate": "2025-07-21T00:00:00.000Z",
+        "daysOnMarket": 104
+      },
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 1199000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "XWNkuoI4PZG_8cCVbFzyQQ",
+      "direction": 355,
+      "panoramaLat": 34.194626,
+      "panoramaLng": -118.616189,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "3-Gaucho-Dr,-Rolling-Hills-Estates,-CA-90274",
+    "formattedAddress": "3 Gaucho Dr, Rolling Hills Estates, CA 90274",
+    "addressLine1": "3 Gaucho Dr",
+    "addressLine2": null,
+    "city": "Rolling Hills Estates",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90274",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 33.7681,
+    "longitude": -118.32206,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 2254,
+    "lotSize": 12815,
+    "yearBuilt": 1955,
+    "status": "Active",
+    "price": 1849000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.313Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "SB25125226",
+    "listingAgent": {
+      "name": "Kimberly Doner",
+      "phone": "3107207933",
+      "email": "kim@kimberlydoner.com",
+      "website": "http://kimberlydoner.com"
+    },
+    "listingOffice": {
+      "name": "COMPASS",
+      "phone": "3102413038",
+      "email": "leads@compass.com"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 1849000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "2w_vigwrO5cU41T1UqtNig",
+      "direction": 316,
+      "panoramaLat": 33.767919,
+      "panoramaLng": -118.32185,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "3837-Paseo-De-Las-Tortugas,-Torrance,-CA-90505",
+    "formattedAddress": "3837 Paseo De Las Tortugas, Torrance, CA 90505",
+    "addressLine1": "3837 Paseo De Las Tortugas",
+    "addressLine2": null,
+    "city": "Torrance",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90505",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 33.799888,
+    "longitude": -118.354607,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 4.5,
+    "squareFootage": 4510,
+    "lotSize": 8038,
+    "yearBuilt": 1988,
+    "status": "Active",
+    "price": 2625000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-05-10T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.311Z",
+    "daysOnMarket": 44,
+    "mlsName": "TheMLSCLAW",
+    "mlsNumber": "25567933",
+    "listingAgent": {
+      "name": "Mark Rutstein",
+      "phone": "3105003923",
+      "email": "mark@rutsteinholcomb.com"
+    },
+    "listingOffice": {
+      "name": "Carolwood Estates",
+      "phone": "3106233600"
+    },
+    "history": {
+      "2025-05-09": {
+        "event": "Sale Listing",
+        "price": 2895000,
+        "listingType": "Standard",
+        "listedDate": "2025-05-09T00:00:00.000Z",
+        "removedDate": "2025-06-14T00:00:00.000Z",
+        "daysOnMarket": 36
+      },
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 2625000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "HiEkKyvoS6uaFOoq5BF-RA",
+      "direction": 48,
+      "panoramaLat": 33.7997,
+      "panoramaLng": -118.354863,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "2450-E-Del-Mar-Blvd,-Unit-1,-Pasadena,-CA-91107",
+    "formattedAddress": "2450 E Del Mar Blvd, Unit 1, Pasadena, CA 91107",
+    "addressLine1": "2450 E Del Mar Blvd",
+    "addressLine2": "Unit 1",
+    "city": "Pasadena",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91107",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.14179,
+    "longitude": -118.099302,
+    "propertyType": "Townhouse",
+    "bedrooms": 3,
+    "bathrooms": 1.5,
+    "squareFootage": 1558,
+    "lotSize": 65443,
+    "yearBuilt": 1978,
+    "hoa": {
+      "fee": 595
+    },
+    "status": "Active",
+    "price": 888000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.309Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "P1-23333",
+    "listingOffice": {
+      "name": "Bryant Companies",
+      "phone": "6264413141",
+      "email": "mvnbryant@aol.com",
+      "website": "http://www.bryantrealestategroup.com"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 888000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "rs3FvJVDekbj1ktp32EeKw",
+      "direction": 180,
+      "panoramaLat": 34.142147,
+      "panoramaLng": -118.099298,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "1620-Oakhorne-Dr,-Harbor-City,-CA-90710",
+    "formattedAddress": "1620 Oakhorne Dr, Harbor City, CA 90710",
+    "addressLine1": "1620 Oakhorne Dr",
+    "addressLine2": null,
+    "city": "Harbor City",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90710",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 33.813908,
+    "longitude": -118.306688,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFootage": 1634,
+    "lotSize": 6001,
+    "yearBuilt": 1969,
+    "status": "Active",
+    "price": 1095000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.309Z",
+    "daysOnMarket": 44,
+    "mlsName": "TheMLSCLAW",
+    "mlsNumber": "25567997",
+    "listingAgent": {
+      "name": "Laila Azhakh"
+    },
+    "listingOffice": {
+      "name": "Keller Williams Realty Hollywood Hills",
+      "phone": "3106231300",
+      "email": "stevenrobbins@kw.com",
+      "website": "https://www.kwhollywoodhills.com/"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 1095000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "k6kaHqlIFcsrvp1ca-BV8A",
+      "direction": 240,
+      "panoramaLat": 33.814017,
+      "panoramaLng": -118.306463,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "5341-Mecca-Ave,-Tarzana,-CA-91356",
+    "formattedAddress": "5341 Mecca Ave, Tarzana, CA 91356",
+    "addressLine1": "5341 Mecca Ave",
+    "addressLine2": null,
+    "city": "Tarzana",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91356",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.168432,
+    "longitude": -118.53792,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFootage": 2100,
+    "lotSize": 8886,
+    "yearBuilt": 1937,
+    "status": "Active",
+    "price": 1499000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2022-08-05T18:09:34.859Z",
+    "lastSeenDate": "2025-09-02T12:51:02.307Z",
+    "daysOnMarket": 44,
+    "mlsName": "TheMLSCLAW",
+    "mlsNumber": "25559779",
+    "listingAgent": {
+      "name": "Flora Martin, Real Estate Agent",
+      "phone": "3104033324",
+      "email": "agentfloramartin@gmail.com",
+      "website": "http://www.floramartinestates.com/"
+    },
+    "listingOffice": {
+      "name": "Equity Union",
+      "phone": "8189892000",
+      "email": "info@equityunion.com",
+      "website": "http://equityunion.com"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 1499000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "rKxlBWyftWAhKB-lU9i71A",
+      "direction": 276,
+      "panoramaLat": 34.1684,
+      "panoramaLng": -118.537569,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "5122-W-Ave-L,-Lancaster,-CA-93536",
+    "formattedAddress": "5122 W Ave L, Lancaster, CA 93536",
+    "addressLine1": "5122 W Ave L",
+    "addressLine2": null,
+    "city": "Lancaster",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "93536",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.659932,
+    "longitude": -118.221706,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1251,
+    "lotSize": 12661,
+    "yearBuilt": 1954,
+    "status": "Active",
+    "price": 449000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-05-10T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.305Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "SR25162330",
+    "listingAgent": {
+      "name": "Delmi Quijano",
+      "phone": "6615382800",
+      "email": "delmiquijano@gmail.com"
+    },
+    "listingOffice": {
+      "name": "Keller Williams Realty Antelop",
+      "phone": "6615382800",
+      "email": "amyc@kw.com",
+      "website": "www.antelopevalleykw.com"
+    },
+    "history": {
+      "2025-05-09": {
+        "event": "Sale Listing",
+        "price": 465000,
+        "listingType": "Standard",
+        "listedDate": "2025-05-09T00:00:00.000Z",
+        "removedDate": "2025-05-21T00:00:00.000Z",
+        "daysOnMarket": 12
+      },
+      "2025-05-21": {
+        "event": "Sale Listing",
+        "price": 475000,
+        "listingType": "Standard",
+        "listedDate": "2025-05-21T00:00:00.000Z",
+        "removedDate": "2025-06-26T00:00:00.000Z",
+        "daysOnMarket": 36
+      },
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 449000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "bykQusbPqlQ9T62moITGIg",
+      "direction": 173,
+      "panoramaLat": 34.660269,
+      "panoramaLng": -118.221754,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "10405-Lubao-Ave,-Chatsworth,-CA-91311",
+    "formattedAddress": "10405 Lubao Ave, Chatsworth, CA 91311",
+    "addressLine1": "10405 Lubao Ave",
+    "addressLine2": null,
+    "city": "Chatsworth",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91311",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.259042,
+    "longitude": -118.568989,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFootage": 2333,
+    "lotSize": 16645,
+    "yearBuilt": 1965,
+    "status": "Active",
+    "price": 1749999,
+    "listingType": "Standard",
+    "listedDate": "2025-07-22T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2022-11-26T09:58:02.516Z",
+    "lastSeenDate": "2025-09-02T12:51:02.305Z",
+    "daysOnMarket": 43,
+    "mlsName": "CRMLS",
+    "mlsNumber": "SR25163547",
+    "listingAgent": {
+      "name": "Vahan Avanesyan",
+      "phone": "3234013229",
+      "email": "estatesbyvahan@gmail.com",
+      "website": "https://pinnacleestate.com/"
+    },
+    "listingOffice": {
+      "name": "Pinnacle Estate Properties, Inc.",
+      "phone": "8189937370",
+      "email": "northridge@pinnacleestate.com"
+    },
+    "history": {
+      "2025-07-22": {
+        "event": "Sale Listing",
+        "price": 1749999,
+        "listingType": "Standard",
+        "listedDate": "2025-07-22T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 43
+      }
+    },
+    "streetView": {
+      "panoId": "P0So0S_5uc8H7QERYj6-fw",
+      "direction": 268,
+      "panoramaLat": 34.259049,
+      "panoramaLng": -118.568689,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "17227-Midwood-Dr,-Granada-Hills,-CA-91344",
+    "formattedAddress": "17227 Midwood Dr, Granada Hills, CA 91344",
+    "addressLine1": "17227 Midwood Dr",
+    "addressLine2": null,
+    "city": "Granada Hills",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91344",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.286348,
+    "longitude": -118.509412,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "squareFootage": 2575,
+    "lotSize": 11818,
+    "yearBuilt": 1964,
+    "status": "Active",
+    "price": 1475000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.304Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "SR25160437",
+    "listingAgent": {
+      "name": "Simon Pozirekides",
+      "phone": "8183088685",
+      "email": "simonpozi@rodeore.com"
+    },
+    "listingOffice": {
+      "name": "Rodeo Realty",
+      "phone": "8189900454",
+      "email": "kendavis@rodeore.com",
+      "website": "www.rodeore.com"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 1475000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "0bpV7QY_Z8a6kntgPvtq3A",
+      "direction": 17,
+      "panoramaLat": 34.286155,
+      "panoramaLng": -118.509482,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "38227-Duval-Ct,-Palmdale,-CA-93552",
+    "formattedAddress": "38227 Duval Ct, Palmdale, CA 93552",
+    "addressLine1": "38227 Duval Ct",
+    "addressLine2": null,
+    "city": "Palmdale",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "93552",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.576503,
+    "longitude": -118.010592,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "squareFootage": 2461,
+    "lotSize": 7405,
+    "yearBuilt": 2008,
+    "hoa": {
+      "fee": 75
+    },
+    "status": "Active",
+    "price": 554900,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.303Z",
+    "daysOnMarket": 44,
+    "mlsName": "GreaterAntelope",
+    "mlsNumber": "25005687",
+    "listingAgent": {
+      "name": "Jennifer Cordtz",
+      "phone": "6614923510",
+      "email": "jenn.cordtz@gmail.com",
+      "website": "https://jenncordtz.kwrealty.com/"
+    },
+    "listingOffice": {
+      "name": "Keller Williams Realty A.V.",
+      "phone": "6615382800",
+      "email": "klrw332@kw.com",
+      "website": "http://www.kw.com"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 554900,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "jguWCEyyV4Kr9XPszFmVVw",
+      "direction": 186,
+      "panoramaLat": 34.576703,
+      "panoramaLng": -118.010566,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "1515-W-Ave-O,-Palmdale,-CA-93551",
+    "formattedAddress": "1515 W Ave O, Palmdale, CA 93551",
+    "addressLine1": "1515 W Ave O",
+    "addressLine2": null,
+    "city": "Palmdale",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "93551",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.617181,
+    "longitude": -118.157168,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1949,
+    "lotSize": 98446,
+    "yearBuilt": 1977,
+    "status": "Active",
+    "price": 769000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-07-25T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.303Z",
+    "daysOnMarket": 44,
+    "mlsName": "GreaterAntelope",
+    "mlsNumber": "25005689",
+    "listingAgent": {
+      "name": "Steven Burton",
+      "phone": "6616224090",
+      "email": "steve@burtonteam1.com",
+      "website": "http://www.avtopagent.com"
+    },
+    "listingOffice": {
+      "name": "Keller Williams Realty A.V.",
+      "phone": "6615382800",
+      "email": "klrw332@kw.com",
+      "website": "http://www.kw.com"
+    },
+    "history": {
+      "2024-07-24": {
+        "event": "Sale Listing",
+        "price": 769000,
+        "listingType": "Standard",
+        "listedDate": "2024-07-24T00:00:00.000Z",
+        "removedDate": "2025-06-03T00:00:00.000Z",
+        "daysOnMarket": 314
+      },
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 769000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "Z9v2Fs6aYeilEM1J_G3bMg",
+      "direction": 323,
+      "panoramaLat": 34.616535,
+      "panoramaLng": -118.15658,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "22152-Altair-Ln,-Valencia,-CA-91390",
+    "formattedAddress": "22152 Altair Ln, Valencia, CA 91390",
+    "addressLine1": "22152 Altair Ln",
+    "addressLine2": null,
+    "city": "Valencia",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91390",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.477903,
+    "longitude": -118.522991,
+    "propertyType": "Single Family",
+    "bedrooms": 5,
+    "bathrooms": 3.5,
+    "squareFootage": 3155,
+    "lotSize": 6138,
+    "yearBuilt": 2004,
+    "hoa": {
+      "fee": 150
+    },
+    "status": "Active",
+    "price": 1135000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.301Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "PW25158389",
+    "listingAgent": {
+      "name": "Alex Omer",
+      "phone": "8772233105",
+      "email": "cwlgi@yahoo.com"
+    },
+    "listingOffice": {
+      "name": "Ladera Home Realty",
+      "phone": "8772233105"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 1135000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "EJBqJbJ1jpFQZ4DFiCi1-w",
+      "direction": 172,
+      "panoramaLat": 34.478124,
+      "panoramaLng": -118.52303,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "15123-Camarillo-St,-Sherman-Oaks,-CA-91403",
+    "formattedAddress": "15123 Camarillo St, Sherman Oaks, CA 91403",
+    "addressLine1": "15123 Camarillo St",
+    "addressLine2": null,
+    "city": "Sherman Oaks",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91403",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.15786,
+    "longitude": -118.462607,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "squareFootage": 3815,
+    "lotSize": 6080,
+    "yearBuilt": 2016,
+    "status": "Active",
+    "price": 2895000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.301Z",
+    "daysOnMarket": 44,
+    "mlsName": "TheMLSCLAW",
+    "mlsNumber": "25567893",
+    "listingAgent": {
+      "name": "Kristofer Everett-einarsson",
+      "phone": "5627256458",
+      "email": "kris.everett@theagencyre.com"
+    },
+    "listingOffice": {
+      "name": "Carolwood Estates",
+      "phone": "3106233600"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 2895000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "jPNCRVLx6Z0O5c2ZQogJzg",
+      "direction": 358,
+      "panoramaLat": 34.157621,
+      "panoramaLng": -118.462598,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "6911-Los-Tilos-Rd,-Los-Angeles,-CA-90068",
+    "formattedAddress": "6911 Los Tilos Rd, Los Angeles, CA 90068",
+    "addressLine1": "6911 Los Tilos Rd",
+    "addressLine2": null,
+    "city": "Los Angeles",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90068",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.110874,
+    "longitude": -118.340146,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "squareFootage": 3967,
+    "lotSize": 15240,
+    "yearBuilt": 1937,
+    "status": "Active",
+    "price": 4369000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-06-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.301Z",
+    "daysOnMarket": 44,
+    "mlsName": "TheMLSCLAW",
+    "mlsNumber": "25567795",
+    "listingAgent": {
+      "name": "Daria Radlinski",
+      "phone": "3102305478",
+      "email": "daria.radlinski@compass.com"
+    },
+    "listingOffice": {
+      "name": "COMPASS",
+      "phone": "3106526285",
+      "email": "mulliganbernard@compass.com"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 4369000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "24-QCU_5KJikkmhQd7jNzw",
+      "direction": 31,
+      "panoramaLat": 34.110724,
+      "panoramaLng": -118.340253,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "532-Rosecrans-Ave,-Manhattan-Beach,-CA-90266",
+    "formattedAddress": "532 Rosecrans Ave, Manhattan Beach, CA 90266",
+    "addressLine1": "532 Rosecrans Ave",
+    "addressLine2": null,
+    "city": "Manhattan Beach",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90266",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 33.901586,
+    "longitude": -118.413102,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "squareFootage": 831,
+    "lotSize": 3005,
+    "yearBuilt": 1955,
+    "status": "Active",
+    "price": 1899999,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.299Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "IG25163978",
+    "listingAgent": {
+      "name": "Silvia Klapp",
+      "phone": "9513940820",
+      "email": "sklapprealestate@gmail.com",
+      "website": "silviaklapp.providentrealestate.com"
+    },
+    "listingOffice": {
+      "name": "Real Broker",
+      "phone": "6162486434",
+      "email": "jason@joinreal.com"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 1899999,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "z-l3bToVsZgnWpPvsv4aeA",
+      "direction": 9,
+      "panoramaLat": 33.901437,
+      "panoramaLng": -118.41313,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "18002-Flynn-Dr,-Unit-6208,-Canyon-Country,-CA-91387",
+    "formattedAddress": "18002 Flynn Dr, Unit 6208, Canyon Country, CA 91387",
+    "addressLine1": "18002 Flynn Dr",
+    "addressLine2": "Unit 6208",
+    "city": "Canyon Country",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91387",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.407014,
+    "longitude": -118.449493,
+    "propertyType": "Townhouse",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "squareFootage": 1445,
+    "lotSize": 118236,
+    "yearBuilt": 2000,
+    "hoa": {
+      "fee": 434
+    },
+    "status": "Active",
+    "price": 595000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.298Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "SR25163876",
+    "listingAgent": {
+      "name": "Jocelyn Bullock",
+      "phone": "6617137688",
+      "email": "jocelyn.bullock@yahoo.com",
+      "website": "http://www.cbvista.com"
+    },
+    "listingOffice": {
+      "name": "Sda Properties",
+      "phone": "8186876676",
+      "email": "sdaproperties1@gmail.com"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 595000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "sXZZZVuBs7uCPwjQvLX5dw",
+      "direction": 187,
+      "panoramaLat": 34.407149,
+      "panoramaLng": -118.449474,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "8171-Tianna-Rd,-Los-Angeles,-CA-90046",
+    "formattedAddress": "8171 Tianna Rd, Los Angeles, CA 90046",
+    "addressLine1": "8171 Tianna Rd",
+    "addressLine2": null,
+    "city": "Los Angeles",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90046",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.115677,
+    "longitude": -118.376568,
+    "propertyType": "Single Family",
+    "bedrooms": 5,
+    "bathrooms": 6,
+    "squareFootage": 4955,
+    "lotSize": 34382,
+    "yearBuilt": 1989,
+    "status": "Active",
+    "price": 4985000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-05-17T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.297Z",
+    "daysOnMarket": 44,
+    "mlsName": "TheMLSCLAW",
+    "mlsNumber": "25567967",
+    "listingAgent": {
+      "name": "Ernie Carswell",
+      "phone": "3103457500",
+      "email": "ernie.carswell@elliman.com",
+      "website": "http://carswellcollection.com/"
+    },
+    "listingOffice": {
+      "name": "Sotheby\u0027s International Realty - Beverly Hills Brokerage",
+      "phone": "3107247000",
+      "email": "michael.williamson@sothebyshomes.com",
+      "website": "https://www.sothebysrealty.com/"
+    },
+    "history": {
+      "2025-06-19": {
+        "event": "Sale Listing",
+        "price": 5299000,
+        "listingType": "Standard",
+        "listedDate": "2025-06-19T00:00:00.000Z",
+        "removedDate": "2025-07-21T00:00:00.000Z",
+        "daysOnMarket": 32
+      },
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 4985000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "djMNePqtAwJdvIe7kw9Jcg",
+      "direction": 313,
+      "panoramaLat": 34.115502,
+      "panoramaLng": -118.37634,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "3651-Greve-Dr,-Rancho-Palos-Verdes,-CA-90275",
+    "formattedAddress": "3651 Greve Dr, Rancho Palos Verdes, CA 90275",
+    "addressLine1": "3651 Greve Dr",
+    "addressLine2": null,
+    "city": "Rancho Palos Verdes",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90275",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 33.743548,
+    "longitude": -118.337563,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 2.5,
+    "squareFootage": 1946,
+    "lotSize": 8695,
+    "yearBuilt": 1964,
+    "status": "Active",
+    "price": 1499000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.296Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "SB25162220",
+    "listingAgent": {
+      "name": "Jerry Carew",
+      "phone": "3107141416",
+      "email": "jerry@3leafrealty.com",
+      "website": "https://www.3leafrealty.com/"
+    },
+    "listingOffice": {
+      "name": "3 Leaf Realty, Inc.",
+      "phone": "3105466300",
+      "email": "jerry@3leafrealty.com",
+      "website": "http://www.3leafrealty.com"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 1499000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "aWX8YHje_gxqXozBo5k8HA",
+      "direction": 57,
+      "panoramaLat": 33.743362,
+      "panoramaLng": -118.337901,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "1866-N-Ditman-Ave,-Los-Angeles,-CA-90032",
+    "formattedAddress": "1866 N Ditman Ave, Los Angeles, CA 90032",
+    "addressLine1": "1866 N Ditman Ave",
+    "addressLine2": null,
+    "city": "Los Angeles",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90032",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.065047,
+    "longitude": -118.188749,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "squareFootage": 1362,
+    "lotSize": 5801,
+    "yearBuilt": 1940,
+    "status": "Active",
+    "price": 899000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.295Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "P1-23334",
+    "listingAgent": {
+      "name": "Patrick Mcginley",
+      "phone": "6262042324",
+      "email": "patrick@bhhsgolden.com",
+      "website": "http://www.patrickmcginley.com"
+    },
+    "listingOffice": {
+      "name": "Berkshire Hathaway Home Services Golden Properties",
+      "phone": "6267977622",
+      "email": "hovig@c21golden.com",
+      "website": "http://www.c21golden.com"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 899000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "B6uaFlugf-OHlV77qw9ZHg",
+      "direction": 84,
+      "panoramaLat": 34.065023,
+      "panoramaLng": -118.189044,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "9849-Dreams-Ave,-North-Hills,-CA-91345",
+    "formattedAddress": "9849 Dreams Ave, North Hills, CA 91345",
+    "addressLine1": "9849 Dreams Ave",
+    "addressLine2": null,
+    "city": "North Hills",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91345",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.249254,
+    "longitude": -118.457431,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "squareFootage": 2476,
+    "lotSize": 9659,
+    "yearBuilt": 2011,
+    "hoa": {
+      "fee": 298
+    },
+    "status": "Active",
+    "price": 1149000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-08-01T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.295Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "SR25164087",
+    "listingAgent": {
+      "name": "Jennifer Camp",
+      "phone": "8186339501",
+      "email": "jen@jencamp.com",
+      "website": "https://www.jennifercamprealty.com"
+    },
+    "listingOffice": {
+      "name": "Coldwell Banker Realty",
+      "phone": "8182220023",
+      "email": "victor.ahn@cbrealty.com",
+      "website": "https://www.coldwellbankerhomes.com//ca/calabasas/office/calabasas/oid_5172/"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 1149000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "9j49ajlBRh-cdm4_oFnhDw",
+      "direction": 5,
+      "panoramaLat": 34.248675,
+      "panoramaLng": -118.457486,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "809-Berncastle-Rd,-Acton,-CA-93510",
+    "formattedAddress": "809 Berncastle Rd, Acton, CA 93510",
+    "addressLine1": "809 Berncastle Rd",
+    "addressLine2": null,
+    "city": "Acton",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "93510",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.496633,
+    "longitude": -118.129919,
+    "propertyType": "Single Family",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFootage": 1648,
+    "lotSize": 30385,
+    "yearBuilt": 1997,
+    "status": "Active",
+    "price": 517000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-22T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-06-26T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.293Z",
+    "daysOnMarket": 43,
+    "mlsName": "CRMLS",
+    "mlsNumber": "SR25164061",
+    "listingAgent": {
+      "name": "Fatasha Cummings",
+      "phone": "6614062580",
+      "email": "fatasharealtor@gmail.com"
+    },
+    "listingOffice": {
+      "name": "Octavio Martin Moreno Broker",
+      "phone": "6614719210",
+      "email": "octavioagent@yamail.com"
+    },
+    "history": {
+      "2025-07-22": {
+        "event": "Sale Listing",
+        "price": 517000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-22T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 43
+      }
+    },
+    "streetView": {
+      "panoId": null,
+      "direction": null,
+      "panoramaLat": null,
+      "panoramaLng": null,
+      "hasStreetView": false
+    }
+  },
+  {
+    "id": "1309-N-Hazard-Ave,-Los-Angeles,-CA-90063",
+    "formattedAddress": "1309 N Hazard Ave, Los Angeles, CA 90063",
+    "addressLine1": "1309 N Hazard Ave",
+    "addressLine2": null,
+    "city": "Los Angeles",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90063",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.054347,
+    "longitude": -118.17875,
+    "propertyType": "Single Family",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 964,
+    "lotSize": 4877,
+    "yearBuilt": 1926,
+    "status": "Active",
+    "price": 680000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-22T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-11-21T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.293Z",
+    "daysOnMarket": 43,
+    "mlsName": "CRMLS",
+    "mlsNumber": "CV25163925",
+    "listingAgent": {
+      "name": "Alejandro Cervantes",
+      "phone": "6263762971",
+      "email": "cervantes.century21@gmail.com"
+    },
+    "listingOffice": {
+      "name": "REALIV",
+      "phone": "6266188286"
+    },
+    "history": {
+      "2024-11-20": {
+        "event": "Sale Listing",
+        "price": 680888,
+        "listingType": "Standard",
+        "listedDate": "2024-11-20T00:00:00.000Z",
+        "removedDate": "2025-01-22T00:00:00.000Z",
+        "daysOnMarket": 63
+      },
+      "2025-01-22": {
+        "event": "Sale Listing",
+        "price": 680000,
+        "listingType": "Standard",
+        "listedDate": "2025-01-22T00:00:00.000Z",
+        "removedDate": "2025-03-06T00:00:00.000Z",
+        "daysOnMarket": 43
+      },
+      "2025-07-22": {
+        "event": "Sale Listing",
+        "price": 680000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-22T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 43
+      }
+    },
+    "streetView": {
+      "panoId": "U8nK63ywxjar-5pQ1Yx9zQ",
+      "direction": 96,
+      "panoramaLat": 34.054369,
+      "panoramaLng": -118.178985,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "4210-W-62nd-St,-Los-Angeles,-CA-90043",
+    "formattedAddress": "4210 W 62nd St, Los Angeles, CA 90043",
+    "addressLine1": "4210 W 62nd St",
+    "addressLine2": null,
+    "city": "Los Angeles",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90043",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 33.983251,
+    "longitude": -118.348673,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "squareFootage": 1939,
+    "lotSize": 7921,
+    "yearBuilt": 1936,
+    "status": "Active",
+    "price": 1399000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-22T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.292Z",
+    "daysOnMarket": 43,
+    "mlsName": "TheMLSCLAW",
+    "mlsNumber": "25567653",
+    "listingAgent": {
+      "name": "Rigdon Dees",
+      "phone": "8182718127",
+      "email": "kevin@kevindees.com"
+    },
+    "listingOffice": {
+      "name": "Carolwood Estates",
+      "phone": "3106233600"
+    },
+    "history": {
+      "2025-07-22": {
+        "event": "Sale Listing",
+        "price": 1399000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-22T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 43
+      }
+    },
+    "streetView": {
+      "panoId": "WPEOimTTg48Gx_Qq2Zh_1A",
+      "direction": 162,
+      "panoramaLat": 33.983514,
+      "panoramaLng": -118.348776,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "2007-Dufour-Ave-Unit-B,-Redondo-Beach,-CA-90278",
+    "formattedAddress": "2007 Dufour Ave Unit B, Redondo Beach, CA 90278",
+    "addressLine1": "2007 Dufour Ave Unit B",
+    "addressLine2": null,
+    "city": "Redondo Beach",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90278",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 33.885849,
+    "longitude": -118.376331,
+    "propertyType": "Townhouse",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "squareFootage": 2120,
+    "lotSize": 7504,
+    "yearBuilt": 1985,
+    "hoa": {
+      "fee": 80
+    },
+    "status": "Active",
+    "price": 1550000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.292Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "SB25144850",
+    "listingAgent": {
+      "name": "Lauren Forbes",
+      "phone": "3109018512",
+      "email": "lauren@laurenforbes.com",
+      "website": "https://laurenforbesgroup.com/"
+    },
+    "listingOffice": {
+      "name": "Compass",
+      "phone": "3103620596",
+      "email": "kathy@compass.com"
+    },
+    "history": {
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 1550000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": "2Sdysg86bQcyHQc1F1jr8g",
+      "direction": 349,
+      "panoramaLat": 33.88562,
+      "panoramaLng": -118.376278,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "5366-Collingwood-Cir,-Calabasas,-CA-91302",
+    "formattedAddress": "5366 Collingwood Cir, Calabasas, CA 91302",
+    "addressLine1": "5366 Collingwood Cir",
+    "addressLine2": null,
+    "city": "Calabasas",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91302",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.159112,
+    "longitude": -118.683998,
+    "propertyType": "Single Family",
+    "bedrooms": 6,
+    "bathrooms": 8,
+    "squareFootage": 6205,
+    "lotSize": 19668,
+    "yearBuilt": 1994,
+    "hoa": {
+      "fee": 595
+    },
+    "status": "Active",
+    "price": 4290000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-04-17T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.289Z",
+    "daysOnMarket": 44,
+    "mlsName": "CRMLS",
+    "mlsNumber": "SR25163772",
+    "listingAgent": {
+      "name": "Valerie Punwar",
+      "phone": "8182239100",
+      "email": "valpunwar@bhhscal.com",
+      "website": "http://valeriepunwar.bhhscalifornia.com"
+    },
+    "listingOffice": {
+      "name": "Berkshire Hathaway HomeServices",
+      "phone": "8182239100",
+      "email": "dstalter@prusd.com",
+      "website": "http://www.bhhscalifornia.com/real-estate-office/calabasas/103"
+    },
+    "history": {
+      "2025-04-17": {
+        "event": "Sale Listing",
+        "price": 4499000,
+        "listingType": "Standard",
+        "listedDate": "2025-04-17T00:00:00.000Z",
+        "removedDate": "2025-07-21T00:00:00.000Z",
+        "daysOnMarket": 95
+      },
+      "2025-07-21": {
+        "event": "Sale Listing",
+        "price": 4290000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    },
+    "streetView": {
+      "panoId": null,
+      "direction": null,
+      "panoramaLat": null,
+      "panoramaLng": null,
+      "hasStreetView": false
+    }
+  },
+  {
+    "id": "5207-Saddle-Creek-Rd,-Hidden-Hills,-CA-91302",
+    "formattedAddress": "5207 Saddle Creek Rd, Hidden Hills, CA 91302",
+    "addressLine1": "5207 Saddle Creek Rd",
+    "addressLine2": null,
+    "city": "Hidden Hills",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91302",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.159738,
+    "longitude": -118.648286,
+    "propertyType": "Single Family",
+    "bedrooms": 5,
+    "bathrooms": 4.5,
+    "squareFootage": 6118,
+    "lotSize": 130294,
+    "yearBuilt": 1979,
+    "status": "Active",
+    "price": 13495000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-22T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-02-29T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.286Z",
+    "daysOnMarket": 43,
+    "mlsName": "CRMLS",
+    "mlsNumber": "SR25164078",
+    "listingAgent": {
+      "name": "Marc Shevin",
+      "phone": "8189627123",
+      "email": "marcshevin@gmail.com",
+      "website": "http://www.theshevins.com"
+    },
+    "listingOffice": {
+      "name": "Douglas Elliman of California,",
+      "phone": "3105953888",
+      "email": "jon.butler@elliman.com"
+    },
+    "history": {
+      "2025-02-01": {
+        "event": "Sale Listing",
+        "price": 15495000,
+        "listingType": "Standard",
+        "listedDate": "2025-02-01T00:00:00.000Z",
+        "removedDate": "2025-05-19T00:00:00.000Z",
+        "daysOnMarket": 107
+      },
+      "2025-07-22": {
+        "event": "Sale Listing",
+        "price": 13495000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-22T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 43
+      }
+    },
+    "streetView": {
+      "panoId": null,
+      "direction": null,
+      "panoramaLat": null,
+      "panoramaLng": null,
+      "hasStreetView": false
+    }
+  },
+  {
+    "id": "26702-Linnet-Ct,-Canyon-Country,-CA-91351",
+    "formattedAddress": "26702 Linnet Ct, Canyon Country, CA 91351",
+    "addressLine1": "26702 Linnet Ct",
+    "addressLine2": null,
+    "city": "Canyon Country",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91351",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.414202,
+    "longitude": -118.486576,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "squareFootage": 1561,
+    "lotSize": 5000,
+    "yearBuilt": 1989,
+    "hoa": {
+      "fee": 210
+    },
+    "status": "Active",
+    "price": 789000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-22T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:51:02.285Z",
+    "daysOnMarket": 43,
+    "mlsName": "CRMLS",
+    "mlsNumber": "SR25163385",
+    "listingOffice": {
+      "name": "Keller Williams Antelope Valley",
+      "phone": "6615382800",
+      "email": "tompaul@kw.com"
+    },
+    "history": {
+      "2025-07-22": {
+        "event": "Sale Listing",
+        "price": 789000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-22T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 43
+      }
+    },
+    "streetView": {
+      "panoId": "5nwnV7TFy_A4Fs3uBkB0Vg",
+      "direction": 47,
+      "panoramaLat": 34.414142,
+      "panoramaLng": -118.486654,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "1135-Summitridge-Dr,-Diamond-Bar,-CA-91765",
+    "formattedAddress": "1135 Summitridge Dr, Diamond Bar, CA 91765",
+    "addressLine1": "1135 Summitridge Dr",
+    "addressLine2": null,
+    "city": "Diamond Bar",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91765",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.001325,
+    "longitude": -117.795261,
+    "propertyType": "Single Family",
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "squareFootage": 3203,
+    "lotSize": 31376,
+    "yearBuilt": 1987,
+    "status": "Active",
+    "price": 1630000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-22T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-03-29T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:50:59.268Z",
+    "daysOnMarket": 43,
+    "mlsName": "CRMLS",
+    "mlsNumber": "PW25164146",
+    "listingAgent": {
+      "name": "Kevin Kim",
+      "phone": "8184763137",
+      "email": "kevinrealty11@gmail.com"
+    },
+    "listingOffice": {
+      "name": "Coldwell Banker Best Realty",
+      "phone": "7145628300",
+      "email": "minchung@coldwellbanker.com"
+    },
+    "history": {
+      "2025-03-27": {
+        "event": "Sale Listing",
+        "price": 1540000,
+        "listingType": "Standard",
+        "listedDate": "2025-03-27T00:00:00.000Z",
+        "removedDate": "2025-06-17T00:00:00.000Z",
+        "daysOnMarket": 82
+      },
+      "2025-07-22": {
+        "event": "Sale Listing",
+        "price": 1630000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-22T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 43
+      }
+    },
+    "streetView": {
+      "panoId": null,
+      "direction": null,
+      "panoramaLat": null,
+      "panoramaLng": null,
+      "hasStreetView": false
+    }
+  },
+  {
+    "id": "4713-Vahan-Ct,-Lancaster,-CA-93536",
+    "formattedAddress": "4713 Vahan Ct, Lancaster, CA 93536",
+    "addressLine1": "4713 Vahan Ct",
+    "addressLine2": null,
+    "city": "Lancaster",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "93536",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.681843,
+    "longitude": -118.215062,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFootage": 2736,
+    "lotSize": 7365,
+    "yearBuilt": 2018,
+    "status": "Active",
+    "price": 599000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-22T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:50:59.134Z",
+    "daysOnMarket": 43,
+    "mlsName": "GreaterAntelope",
+    "mlsNumber": "25005692",
+    "listingAgent": {
+      "name": "Lori Fischer",
+      "phone": "6619488424",
+      "email": "lori.fischer@coldwellbanker.com",
+      "website": "http://www.lorifischer.com"
+    },
+    "listingOffice": {
+      "name": "Coldwell Banker-A Hartwig Co.",
+      "phone": "6619488424",
+      "email": "burl.patterson@coldwellbanker.com",
+      "website": "www.cbhartwig.com"
+    },
+    "history": {
+      "2025-07-22": {
+        "event": "Sale Listing",
+        "price": 599000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-22T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 43
+      }
+    },
+    "streetView": {
+      "panoId": "SBAeFHY3M9F0q_a2FkOFCw",
+      "direction": 352,
+      "panoramaLat": 34.681612,
+      "panoramaLng": -118.215024,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "22345-Cantara-St,-Canoga-Park,-CA-91304",
+    "formattedAddress": "22345 Cantara St, Canoga Park, CA 91304",
+    "addressLine1": "22345 Cantara St",
+    "addressLine2": null,
+    "city": "Canoga Park",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91304",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.218107,
+    "longitude": -118.613976,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "squareFootage": 1516,
+    "lotSize": 8051,
+    "yearBuilt": 1959,
+    "status": "Active",
+    "price": 950000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-22T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:50:59.133Z",
+    "daysOnMarket": 43,
+    "mlsName": "CRMLS",
+    "mlsNumber": "SR25164143",
+    "listingAgent": {
+      "name": "David Samuel Snow",
+      "phone": "8184261747",
+      "email": "davidsnow@rodeore.com"
+    },
+    "listingOffice": {
+      "name": "Rodeo Realty",
+      "phone": "8182227707",
+      "email": "kendavis@rodeore.com",
+      "website": "www.rodeore.com"
+    },
+    "history": {
+      "2025-07-22": {
+        "event": "Sale Listing",
+        "price": 950000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-22T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 43
+      }
+    },
+    "streetView": {
+      "panoId": "-6TUvfqF6u7maaYODPR7HQ",
+      "direction": 6,
+      "panoramaLat": 34.2179,
+      "panoramaLng": -118.614004,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "38446-Landon-Ave,-Palmdale,-CA-93550",
+    "formattedAddress": "38446 Landon Ave, Palmdale, CA 93550",
+    "addressLine1": "38446 Landon Ave",
+    "addressLine2": null,
+    "city": "Palmdale",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "93550",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.581624,
+    "longitude": -118.064109,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1299,
+    "lotSize": 7554,
+    "yearBuilt": 1957,
+    "status": "Active",
+    "price": 349500,
+    "listingType": "Standard",
+    "listedDate": "2025-07-22T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:50:59.131Z",
+    "daysOnMarket": 43,
+    "mlsName": "CRMLS",
+    "mlsNumber": "SR25162052",
+    "listingAgent": {
+      "name": "Alessandra Rojas Nerio",
+      "phone": "8186334886",
+      "email": "homesbyale@gmail.com"
+    },
+    "listingOffice": {
+      "name": "Next Real Estate Group",
+      "phone": "8058135412",
+      "email": "homesbysandram@gmail.com"
+    },
+    "history": {
+      "2025-07-22": {
+        "event": "Sale Listing",
+        "price": 349500,
+        "listingType": "Standard",
+        "listedDate": "2025-07-22T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 43
+      }
+    },
+    "streetView": {
+      "panoId": "cRAe3WbZemolP9vxez83Rg",
+      "direction": 98,
+      "panoramaLat": 34.581661,
+      "panoramaLng": -118.064414,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "21249-Davan-St,-Diamond-Bar,-CA-91789",
+    "formattedAddress": "21249 Davan St, Diamond Bar, CA 91789",
+    "addressLine1": "21249 Davan St",
+    "addressLine2": null,
+    "city": "Diamond Bar",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91789",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 33.998402,
+    "longitude": -117.840089,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1366,
+    "lotSize": 7926,
+    "yearBuilt": 1968,
+    "status": "Active",
+    "price": 895000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-22T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:50:59.130Z",
+    "daysOnMarket": 43,
+    "mlsName": "CRMLS",
+    "mlsNumber": "PW25163882",
+    "listingAgent": {
+      "name": "Al Ricci",
+      "phone": "7142316058",
+      "email": "alricci@riccirealty.com",
+      "website": "http://www.riccirealty.com"
+    },
+    "listingOffice": {
+      "name": "RICCI REALTY"
+    },
+    "history": {
+      "2025-07-22": {
+        "event": "Sale Listing",
+        "price": 895000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-22T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 43
+      }
+    },
+    "streetView": {
+      "panoId": "ee6luMJZJsyKRp4Ct9pzJg",
+      "direction": 298,
+      "panoramaLat": 33.998296,
+      "panoramaLng": -117.839853,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "42240-47th-St-W,-Lancaster,-CA-93536",
+    "formattedAddress": "42240 47th St W, Lancaster, CA 93536",
+    "addressLine1": "42240 47th St W",
+    "addressLine2": null,
+    "city": "Lancaster",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "93536",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.650444,
+    "longitude": -118.212776,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "squareFootage": 2511,
+    "lotSize": 23486,
+    "yearBuilt": 1986,
+    "status": "Active",
+    "price": 725000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-22T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:50:59.129Z",
+    "daysOnMarket": 43,
+    "mlsName": "CRMLS",
+    "mlsNumber": "SR25164126",
+    "listingAgent": {
+      "name": "Meroojohn Ordubegian",
+      "phone": "8182435885",
+      "email": "mo@westgatecap.com"
+    },
+    "listingOffice": {
+      "name": "Westgate Capital",
+      "phone": "8185007997",
+      "email": "mo@westgatecap.com"
+    },
+    "history": {
+      "2025-07-22": {
+        "event": "Sale Listing",
+        "price": 725000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-22T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 43
+      }
+    },
+    "streetView": {
+      "panoId": "NvDGLDSBd3MfIsviCURmQA",
+      "direction": 95,
+      "panoramaLat": 34.650469,
+      "panoramaLng": -118.213159,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "554-N-Cabernet-Dr,-Covina,-CA-91723",
+    "formattedAddress": "554 N Cabernet Dr, Covina, CA 91723",
+    "addressLine1": "554 N Cabernet Dr",
+    "addressLine2": null,
+    "city": "Covina",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91723",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.091877,
+    "longitude": -117.89273,
+    "propertyType": "Townhouse",
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "squareFootage": 1620,
+    "lotSize": 16694,
+    "yearBuilt": 2011,
+    "hoa": {
+      "fee": 270
+    },
+    "status": "Active",
+    "price": 688000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-22T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:50:59.128Z",
+    "daysOnMarket": 43,
+    "mlsName": "CRMLS",
+    "mlsNumber": "CV25164175",
+    "listingAgent": {
+      "name": "Cho Cho Hernandez",
+      "phone": "6262159440",
+      "email": "chohernandez@yahoo.com"
+    },
+    "listingOffice": {
+      "name": "Elevate Real Estate Agency",
+      "phone": "9098987010",
+      "email": "ashmailers@gmail.com"
+    },
+    "history": {
+      "2025-07-22": {
+        "event": "Sale Listing",
+        "price": 688000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-22T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 43
+      }
+    },
+    "streetView": {
+      "panoId": "QmHnouh2XeUrSnbnlaVVqA",
+      "direction": 266,
+      "panoramaLat": 34.09189,
+      "panoramaLng": -117.892499,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "2030-E-Linfield-St,-Glendora,-CA-91740",
+    "formattedAddress": "2030 E Linfield St, Glendora, CA 91740",
+    "addressLine1": "2030 E Linfield St",
+    "addressLine2": null,
+    "city": "Glendora",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91740",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.124264,
+    "longitude": -117.825308,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "squareFootage": 1319,
+    "lotSize": 7639,
+    "yearBuilt": 1956,
+    "status": "Active",
+    "price": 699999,
+    "listingType": "Standard",
+    "listedDate": "2025-07-22T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:50:59.127Z",
+    "daysOnMarket": 43,
+    "mlsName": "CRMLS",
+    "mlsNumber": "TR25164190",
+    "listingAgent": {
+      "name": "Richard Wolf Furstenberg",
+      "email": "wolf.gang44@yahoo.com",
+      "website": "http://propertylistingforless.com"
+    },
+    "listingOffice": {
+      "name": "Furstenberg Realty",
+      "phone": "9099735959"
+    },
+    "history": {
+      "2025-07-22": {
+        "event": "Sale Listing",
+        "price": 699999,
+        "listingType": "Standard",
+        "listedDate": "2025-07-22T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 43
+      }
+    },
+    "streetView": {
+      "panoId": "7rKM87XZteLhMEczqmIniA",
+      "direction": 175,
+      "panoramaLat": 34.124483,
+      "panoramaLng": -117.82533,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "3414-Amethyst-St,-Los-Angeles,-CA-90032",
+    "formattedAddress": "3414 Amethyst St, Los Angeles, CA 90032",
+    "addressLine1": "3414 Amethyst St",
+    "addressLine2": null,
+    "city": "Los Angeles",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90032",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.084126,
+    "longitude": -118.194138,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "lotSize": 4177,
+    "yearBuilt": 1926,
+    "status": "Active",
+    "price": 800000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-22T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:50:59.126Z",
+    "daysOnMarket": 43,
+    "mlsName": "CRMLS",
+    "mlsNumber": "RS25158369",
+    "listingAgent": {
+      "name": "Gloria Hernandez",
+      "phone": "5624931191",
+      "email": "gorhino99@hotmail.com"
+    },
+    "listingOffice": {
+      "name": "Gloria Hernandez, Broker",
+      "phone": "5624931191"
+    },
+    "history": {
+      "2025-07-22": {
+        "event": "Sale Listing",
+        "price": 800000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-22T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 43
+      }
+    },
+    "streetView": {
+      "panoId": "W2nXN0nfNZ9_qhUZUAoNxA",
+      "direction": 143,
+      "panoramaLat": 34.084299,
+      "panoramaLng": -118.194298,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "934-El-Campo-Dr,-Pasadena,-CA-91107",
+    "formattedAddress": "934 El Campo Dr, Pasadena, CA 91107",
+    "addressLine1": "934 El Campo Dr",
+    "addressLine2": null,
+    "city": "Pasadena",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91107",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.131525,
+    "longitude": -118.090081,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 1,
+    "squareFootage": 2725,
+    "lotSize": 25716,
+    "yearBuilt": 1926,
+    "status": "Active",
+    "price": 2388000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-22T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:50:59.122Z",
+    "daysOnMarket": 43,
+    "mlsName": "CRMLS",
+    "mlsNumber": "P1-23337",
+    "listingAgent": {
+      "name": "Reni R. Rose",
+      "phone": "6264376000",
+      "email": "renirose@aol.com",
+      "website": "http://renirose.com"
+    },
+    "listingOffice": {
+      "name": "Berkshire Hathaway Homeservices California Properties",
+      "phone": "6263551600",
+      "email": "jim@jimmanoledes.com",
+      "website": "www.bhhscalpro.com"
+    },
+    "history": {
+      "2025-07-22": {
+        "event": "Sale Listing",
+        "price": 2388000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-22T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 43
+      }
+    },
+    "streetView": {
+      "panoId": "YevpN1oG97fDuxqEpuoH-g",
+      "direction": 63,
+      "panoramaLat": 34.131355,
+      "panoramaLng": -118.090482,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "641-W-Spruce-St,-Compton,-CA-90220",
+    "formattedAddress": "641 W Spruce St, Compton, CA 90220",
+    "addressLine1": "641 W Spruce St",
+    "addressLine2": null,
+    "city": "Compton",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90220",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 33.902825,
+    "longitude": -118.235988,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1330,
+    "lotSize": 5000,
+    "yearBuilt": 1925,
+    "status": "Active",
+    "price": 630000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-22T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:50:59.121Z",
+    "daysOnMarket": 43,
+    "mlsName": "CRMLS",
+    "mlsNumber": "SB25163387",
+    "listingAgent": {
+      "name": "Christina Moya",
+      "phone": "3109476560",
+      "email": "moyainsurance@yahoo.com"
+    },
+    "listingOffice": {
+      "name": "West Shores Realty",
+      "phone": "3105418000",
+      "email": "info@westshoresrealty.com"
+    },
+    "history": {
+      "2025-07-22": {
+        "event": "Sale Listing",
+        "price": 630000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-22T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 43
+      }
+    },
+    "streetView": {
+      "panoId": "Bu6OfmNHjHuMvjFKnGl15w",
+      "direction": 98,
+      "panoramaLat": 33.902845,
+      "panoramaLng": -118.236161,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "11150-Franklin-St,-Lynwood,-CA-90262",
+    "formattedAddress": "11150 Franklin St, Lynwood, CA 90262",
+    "addressLine1": "11150 Franklin St",
+    "addressLine2": null,
+    "city": "Lynwood",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90262",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 33.931551,
+    "longitude": -118.220653,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1750,
+    "lotSize": 5627,
+    "yearBuilt": 1925,
+    "status": "Active",
+    "price": 619000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-22T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:50:59.120Z",
+    "daysOnMarket": 43,
+    "mlsName": "CRMLS",
+    "mlsNumber": "MB25151629",
+    "listingAgent": {
+      "name": "Evan Garcia",
+      "phone": "3237227300",
+      "email": "evangarcia23@gmail.com",
+      "website": "http://www.century21realtymaster.com"
+    },
+    "listingOffice": {
+      "name": "Excellence RE Real Estate, Inc ",
+      "phone": "5629484553",
+      "email": "broker@excellencere.com",
+      "website": "www.excellencere.com"
+    },
+    "history": {
+      "2025-07-22": {
+        "event": "Sale Listing",
+        "price": 619000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-22T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 43
+      }
+    },
+    "streetView": {
+      "panoId": "qUGZFa1MrSbW9w9APJqxaw",
+      "direction": 123,
+      "panoramaLat": 33.931697,
+      "panoramaLng": -118.220924,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "15926-Napa-St,-North-Hills,-CA-91343",
+    "formattedAddress": "15926 Napa St, North Hills, CA 91343",
+    "addressLine1": "15926 Napa St",
+    "addressLine2": null,
+    "city": "North Hills",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91343",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.22627,
+    "longitude": -118.479533,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1570,
+    "lotSize": 8712,
+    "yearBuilt": 1958,
+    "status": "Active",
+    "price": 830000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-22T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:50:59.119Z",
+    "daysOnMarket": 43,
+    "mlsName": "GreaterAntelope",
+    "mlsNumber": "25005697",
+    "listingAgent": {
+      "name": "Claudia Perdomo",
+      "phone": "6612366523",
+      "email": "claudiaprdm@yahoo.com",
+      "website": "www.claudiashomes.com"
+    },
+    "listingOffice": {
+      "name": "eXp Realty of California Inc.",
+      "phone": "8888327179",
+      "email": "ray@raymarquez.com",
+      "website": "https://ca.exprealty.com/"
+    },
+    "history": {
+      "2025-07-22": {
+        "event": "Sale Listing",
+        "price": 830000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-22T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 43
+      }
+    },
+    "streetView": {
+      "panoId": "ZRdQA3-QJPr5FOlmEgGbig",
+      "direction": 174,
+      "panoramaLat": 34.226555,
+      "panoramaLng": -118.479568,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "44417-12th-St-W,-Lancaster,-CA-93534",
+    "formattedAddress": "44417 12th St W, Lancaster, CA 93534",
+    "addressLine1": "44417 12th St W",
+    "addressLine2": null,
+    "city": "Lancaster",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "93534",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.689978,
+    "longitude": -118.152245,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1859,
+    "lotSize": 6845,
+    "yearBuilt": 1954,
+    "status": "Active",
+    "price": 475000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-22T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:50:59.118Z",
+    "daysOnMarket": 43,
+    "mlsName": "CRMLS",
+    "mlsNumber": "GD25162649",
+    "listingAgent": {
+      "name": "Bob Kasumyan",
+      "email": "bob.precise@gmail.com"
+    },
+    "listingOffice": {
+      "name": "Precise Real Estate Investment",
+      "phone": "8184458938",
+      "email": "bob.precise@gmail.com"
+    },
+    "history": {
+      "2025-07-22": {
+        "event": "Sale Listing",
+        "price": 475000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-22T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 43
+      }
+    },
+    "streetView": {
+      "panoId": "mmpgs3KzfWQCBNknGImRyQ",
+      "direction": 260,
+      "panoramaLat": 34.690014,
+      "panoramaLng": -118.151999,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "14542-Allegan-St,-Whittier,-CA-90604",
+    "formattedAddress": "14542 Allegan St, Whittier, CA 90604",
+    "addressLine1": "14542 Allegan St",
+    "addressLine2": null,
+    "city": "Whittier",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90604",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 33.92798,
+    "longitude": -118.02362,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFootage": 2084,
+    "lotSize": 7499,
+    "yearBuilt": 1956,
+    "status": "Active",
+    "price": 1049000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-22T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2023-01-25T07:18:46.875Z",
+    "lastSeenDate": "2025-09-02T12:50:59.118Z",
+    "daysOnMarket": 43,
+    "mlsName": "CRMLS",
+    "mlsNumber": "P1-23339",
+    "listingAgent": {
+      "name": "Trey A Ballard",
+      "phone": "8188508802",
+      "email": "trey@andersonballard.com"
+    },
+    "listingOffice": {
+      "name": "eXp Realty of Los Angeles",
+      "phone": "8886521314"
+    },
+    "history": {
+      "2025-07-22": {
+        "event": "Sale Listing",
+        "price": 1049000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-22T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 43
+      }
+    },
+    "streetView": {
+      "panoId": "F4tHtjTCY09Ia_3NPaksZw",
+      "direction": 225,
+      "panoramaLat": 33.928167,
+      "panoramaLng": -118.023396,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "9626-Hanna-Ave,-Chatsworth,-CA-91311",
+    "formattedAddress": "9626 Hanna Ave, Chatsworth, CA 91311",
+    "addressLine1": "9626 Hanna Ave",
+    "addressLine2": null,
+    "city": "Chatsworth",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "91311",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.245519,
+    "longitude": -118.607498,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "squareFootage": 2892,
+    "lotSize": 7883,
+    "yearBuilt": 2007,
+    "hoa": {
+      "fee": 223
+    },
+    "status": "Active",
+    "price": 1390000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-22T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-22T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:50:59.117Z",
+    "daysOnMarket": 43,
+    "mlsName": "TheMLSCLAW",
+    "mlsNumber": "25565813",
+    "listingAgent": {
+      "name": "Maple Patton",
+      "phone": "4242807400",
+      "email": "maple.patton@cbrealty.com",
+      "website": "http://mpatton.cbintouch.com/"
+    },
+    "listingOffice": {
+      "name": "Coldwell Banker Realty",
+      "phone": "4242807400",
+      "email": "pamela.upchurch@camoves.com",
+      "website": "https://www.coldwellbankerhomes.com//ca/santa-monica/office/venice-main-street/oid_5481/"
+    },
+    "history": {
+      "2025-07-22": {
+        "event": "Sale Listing",
+        "price": 1390000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-22T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 43
+      }
+    },
+    "streetView": {
+      "panoId": "htwGcMlz2EJX3c-n13MXGQ",
+      "direction": 251,
+      "panoramaLat": 34.245585,
+      "panoramaLng": -118.607265,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "2755-W-Ave-N,-Palmdale,-CA-93551",
+    "formattedAddress": "2755 W Ave N, Palmdale, CA 93551",
+    "addressLine1": "2755 W Ave N",
+    "addressLine2": null,
+    "city": "Palmdale",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "93551",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.632113,
+    "longitude": -118.180808,
+    "propertyType": "Single Family",
+    "bedrooms": 5,
+    "bathrooms": 3.5,
+    "squareFootage": 4083,
+    "lotSize": 105415,
+    "yearBuilt": 1987,
+    "status": "Active",
+    "price": 1049990,
+    "listingType": "Standard",
+    "listedDate": "2025-07-22T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-10-05T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:50:59.113Z",
+    "daysOnMarket": 43,
+    "mlsName": "GreaterAntelope",
+    "mlsNumber": "25005703",
+    "listingAgent": {
+      "name": "Farris Tarazi",
+      "phone": "6613880575",
+      "email": "farris@taraziestates.com",
+      "website": "http://www.instagram.com/farristarazi_realtor"
+    },
+    "listingOffice": {
+      "name": "Real Brokerage Technologies",
+      "phone": "9168487554",
+      "email": "jasonlopez619@gmail.com"
+    },
+    "history": {
+      "2024-10-04": {
+        "event": "Sale Listing",
+        "price": 899990,
+        "listingType": "Standard",
+        "listedDate": "2024-10-04T00:00:00.000Z",
+        "removedDate": "2024-12-06T00:00:00.000Z",
+        "daysOnMarket": 63
+      },
+      "2025-07-22": {
+        "event": "Sale Listing",
+        "price": 1049990,
+        "listingType": "Standard",
+        "listedDate": "2025-07-22T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 43
+      }
+    },
+    "streetView": {
+      "panoId": null,
+      "direction": null,
+      "panoramaLat": null,
+      "panoramaLng": null,
+      "hasStreetView": false
+    }
+  },
+  {
+    "id": "6116-Wooster-Ave,-Los-Angeles,-CA-90056",
+    "formattedAddress": "6116 Wooster Ave, Los Angeles, CA 90056",
+    "addressLine1": "6116 Wooster Ave",
+    "addressLine2": null,
+    "city": "Los Angeles",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90056",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 33.985452,
+    "longitude": -118.380008,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFootage": 3200,
+    "lotSize": 9124,
+    "yearBuilt": 1960,
+    "status": "Active",
+    "price": 2150000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-22T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-03-07T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:50:59.112Z",
+    "daysOnMarket": 43,
+    "mlsName": "TheMLSCLAW",
+    "mlsNumber": "25568269",
+    "listingAgent": {
+      "name": "Sandra Mcbeth-wellington",
+      "phone": "3109156500",
+      "email": "sanmwell@yahoo.com"
+    },
+    "listingOffice": {
+      "name": "Robert Pitts Estates",
+      "phone": "3109156500",
+      "email": "rpitts9600@aol.com"
+    },
+    "history": {
+      "2024-07-07": {
+        "event": "Sale Listing",
+        "price": 2150000,
+        "listingType": "Standard",
+        "listedDate": "2024-07-07T00:00:00.000Z",
+        "removedDate": "2025-06-25T00:00:00.000Z",
+        "daysOnMarket": 353
+      },
+      "2025-07-22": {
+        "event": "Sale Listing",
+        "price": 2150000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-22T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 43
+      }
+    },
+    "streetView": {
+      "panoId": "rWC3Ad_2AcljX9YMcTdgLA",
+      "direction": 119,
+      "panoramaLat": 33.985582,
+      "panoramaLng": -118.380294,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "34047-E-175th-St,-Llano,-CA-93544",
+    "formattedAddress": "34047 E 175th St, Llano, CA 93544",
+    "addressLine1": "34047 E 175th St",
+    "addressLine2": null,
+    "city": "Llano",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "93544",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.503689,
+    "longitude": -117.818494,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "squareFootage": 1010,
+    "lotSize": 213444,
+    "yearBuilt": 1956,
+    "status": "Active",
+    "price": 260000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-22T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2023-06-03T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:50:59.111Z",
+    "daysOnMarket": 43,
+    "mlsName": "GreaterAntelope",
+    "mlsNumber": "25005704",
+    "listingAgent": {
+      "name": "Rami Rafeh",
+      "phone": "6614065938",
+      "email": "ramirafehkw@gmail.com",
+      "website": "www.ramirafeh1.com"
+    },
+    "listingOffice": {
+      "name": "Keller Williams Realty A.V.",
+      "phone": "6615382800",
+      "email": "klrw332@kw.com",
+      "website": "http://www.kw.com"
+    },
+    "history": {
+      "2024-10-07": {
+        "event": "Sale Listing",
+        "price": 280000,
+        "listingType": "Standard",
+        "listedDate": "2024-10-07T00:00:00.000Z",
+        "removedDate": "2025-03-29T00:00:00.000Z",
+        "daysOnMarket": 173
+      },
+      "2025-07-22": {
+        "event": "Sale Listing",
+        "price": 260000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-22T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 43
+      }
+    },
+    "streetView": {
+      "panoId": "wUlXMUGBnu-woQ_-uY8clA",
+      "direction": 243,
+      "panoramaLat": 34.503907,
+      "panoramaLng": -117.817983,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "41253-Chestnut-St,-Palmdale,-CA-93551",
+    "formattedAddress": "41253 Chestnut St, Palmdale, CA 93551",
+    "addressLine1": "41253 Chestnut St",
+    "addressLine2": null,
+    "city": "Palmdale",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "93551",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 34.632357,
+    "longitude": -118.228512,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 2.5,
+    "squareFootage": 2402,
+    "lotSize": 12339,
+    "yearBuilt": 1989,
+    "status": "Active",
+    "price": 620000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-22T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2020-11-05T17:08:42.171Z",
+    "lastSeenDate": "2025-09-02T12:50:59.111Z",
+    "daysOnMarket": 43,
+    "mlsName": "CRMLS",
+    "mlsNumber": "SR25164329",
+    "listingAgent": {
+      "name": "Robert Kirakosian",
+      "phone": "8182723140",
+      "email": "robert@robertkgroup.com",
+      "website": "http://robertkgroup.com"
+    },
+    "listingOffice": {
+      "name": "Robert K Group",
+      "phone": "8182723140",
+      "email": "robert@robertkgroup.com"
+    },
+    "history": {
+      "2025-04-10": {
+        "event": "Sale Listing",
+        "price": 635000,
+        "listingType": "Standard",
+        "listedDate": "2025-04-10T00:00:00.000Z",
+        "removedDate": "2025-07-08T00:00:00.000Z",
+        "daysOnMarket": 89
+      },
+      "2025-07-22": {
+        "event": "Sale Listing",
+        "price": 620000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-22T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 43
+      }
+    },
+    "streetView": {
+      "panoId": "UeY5xhzk24vxMSzvrg99QQ",
+      "direction": 280,
+      "panoramaLat": 34.632315,
+      "panoramaLng": -118.22823,
+      "hasStreetView": true
+    }
+  },
+  {
+    "id": "1014-S-Meyler-St,-San-Pedro,-CA-90731",
+    "formattedAddress": "1014 S Meyler St, San Pedro, CA 90731",
+    "addressLine1": "1014 S Meyler St",
+    "addressLine2": null,
+    "city": "San Pedro",
+    "state": "CA",
+    "stateFips": "06",
+    "zipCode": "90731",
+    "county": "Los Angeles",
+    "countyFips": "037",
+    "latitude": 33.734789,
+    "longitude": -118.296508,
+    "propertyType": "Single Family",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 1135,
+    "lotSize": 3280,
+    "yearBuilt": 1925,
+    "status": "Active",
+    "price": 699000,
+    "listingType": "Standard",
+    "listedDate": "2025-07-22T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2025-07-23T00:00:00.000Z",
+    "lastSeenDate": "2025-09-02T12:50:59.104Z",
+    "daysOnMarket": 43,
+    "mlsName": "CRMLS",
+    "mlsNumber": "SB25164350",
+    "listingAgent": {
+      "name": "Di Bernardo Realty",
+      "phone": "3108728686",
+      "email": "freddibernardo@sbcglobal.net"
+    },
+    "listingOffice": {
+      "name": "Fred Dibernardo",
+      "phone": "3108324572"
+    },
+    "history": {
+      "2025-07-22": {
+        "event": "Sale Listing",
+        "price": 699000,
+        "listingType": "Standard",
+        "listedDate": "2025-07-22T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 43
+      }
+    },
+    "streetView": {
+      "panoId": "VKZRnypZHX8GuWaeopmRFQ",
+      "direction": 333,
+      "panoramaLat": 33.734723,
+      "panoramaLng": -118.296467,
+      "hasStreetView": true
+    }
+  }
+]
