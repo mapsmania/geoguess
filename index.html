@@ -72,7 +72,7 @@
     let current = null;
 
     async function loadData() {
-      const res = await fetch("https://mapsmania.github.io/geoguess/rentcast.geojson");
+      const res = await fetch("https://mapsmania.github.io/geoguess/rentcast.json");
       const data = await res.json();
       properties = data.features.map(f => f.properties);
       newRound();
