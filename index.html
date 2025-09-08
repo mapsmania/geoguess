@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🏠 Price Guessing Game</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f9;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 { margin-bottom: 20px; }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      max-width: 600px;
+      margin: 0 auto;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    img {
+      border-radius: 10px;
+      max-width: 100%;
+      margin-bottom: 15px;
+    }
+    input {
+      padding: 10px;
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+    button {
+      padding: 10px 16px;
+      margin: 5px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button.primary { background: #4CAF50; color: white; }
+    button.secondary { background: #eee; }
+    .result {
+      background: #f0f0f0;
+      border-radius: 8px;
+      padding: 15px;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🏠 Price Guessing Game</h1>
+  <div class="card">
+    <div id="image-container">
+      <p>Loading property...</p>
+    </div>
+    <p id="prompt"></p>
+    <input id="guessInput" type="number" placeholder="Enter your guess ($)">
+    <div>
+      <button class="primary" onclick="checkGuess()">Submit Guess</button>
+      <button class="secondary" onclick="newRound()">New Property</button>
+    </div>
+    <div id="result" class="result" style="display: none;"></div>
+  </div>
+
+  <script>
+    const apiKey = "YOUR_GOOGLE_MAPS_API_KEY"; // replace with your Google Maps API key
+    let properties = [];
+    let current = null;
+
+    async function loadData() {
+      const res = await fetch("https://mapsmania.github.io/geoguess/rentcast.geojson");
+      const data = await res.json();
+      properties = data.features.map(f => f.properties);
+      newRound();
+    }
+
+    function newRound() {
+      document.getElementById("result").style.display = "none";
+      document.getElementById("guessInput").value = "";
+      if (properties.length === 0) return;
+
+      current = properties[Math.floor(Math.random() * properties.length)];
+      const prompt = `Guess the listing price for this property in ${current.city}, ${current.state}`;
+
+      document.getElementById("prompt").textContent = prompt;
+
+      if (current.streetView && current.streetView.panoId) {
+        const url = `https://maps.googleapis.com/maps/api/streetview?pano=${current.streetView.panoId}&size=600x400&key=${apiKey}`;
+        document.getElementById("image-container").innerHTML = `<img src=\"${url}\" alt=\"Street View\">`;
+      } else {
+        document.getElementById("image-container").innerHTML = `<div style=\"height:300px;display:flex;align-items:center;justify-content:center;background:#eee;border-radius:10px;\">No Street View Available</div>`;
+      }
+    }
+
+    function checkGuess() {
+      const guess = parseInt(document.getElementById("guessInput").value);
+      if (!current || isNaN(guess)) return;
+
+      const actual = current.price;
+      const diff = Math.abs(actual - guess);
+      const pct = ((diff / actual) * 100).toFixed(1);
+
+      const resultDiv = document.getElementById("result");
+      resultDiv.innerHTML = `
+        <p><b>Actual Price:</b> $${actual.toLocaleString()}</p>
+        <p><b>Your Guess Difference:</b> $${diff.toLocaleString()}</p>
+        <p><b>Accuracy:</b> ${100 - pct}%</p>
+      `;
+      resultDiv.style.display = "block";
+    }
+
+    loadData();
+  </script>
+</body>
+</html>
