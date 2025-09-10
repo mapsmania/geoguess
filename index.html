@@ -14,7 +14,7 @@
     h1 { margin-bottom: 20px; }
     .card {
       display: flex;
-      flex-direction: column; /* stacked by default */
+      flex-direction: column;
       gap: 20px;
       max-width: 1000px;
       margin: 0 auto;
@@ -23,10 +23,7 @@
       padding: 20px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
-    .left, .right {
-      flex: 1;
-    }
-    /* mobile order: image first, text second */
+    .left, .right { flex: 1; }
     .left { order: 2; }
     .right { order: 1; }
     .left {
@@ -34,6 +31,16 @@
       flex-direction: column;
       justify-content: center;
       text-align: left;
+    }
+    .property-info {
+      font-size: 14px;
+      color: #333;
+      margin: 10px 0;
+      display: none;
+      background: #fff3cd;
+      border-radius: 8px;
+      padding: 10px;
+      border: 1px solid #ffeeba;
     }
     img {
       border-radius: 10px;
@@ -55,16 +62,27 @@
       border-radius: 8px;
       cursor: pointer;
       font-size: 16px;
+      transition: all 0.2s ease;
     }
     button.primary { background: #4CAF50; color: white; }
-    button.secondary { background: #eee; }
+    button.secondary { 
+      background: #eee; 
+      color: #333;
+    }
+    button.secondary.active { 
+      background: #4CAF50;  /* green when active */
+      color: white;
+    }
+    button:disabled {
+      background: #ccc;
+      cursor: not-allowed;
+    }
     .result {
       background: #f0f0f0;
       border-radius: 8px;
       padding: 15px;
       margin-top: 15px;
     }
-    /* desktop: side-by-side with text left, image right */
     @media screen and (min-width: 768px) {
       .card {
         flex-direction: row;
@@ -80,10 +98,11 @@
   <div class="card">
     <div class="left">
       <p id="prompt"></p>
+      <p id="propertyInfo" class="property-info"></p>
       <input id="guessInput" type="number" placeholder="Enter your guess ($)">
       <div>
-        <button class="primary" onclick="checkGuess()">Submit Guess</button>
-        <button class="secondary" onclick="newRound()">New Property</button>
+        <button id="submitBtn" class="primary" onclick="checkGuess()">Submit Guess</button>
+        <button id="newPropertyBtn" class="secondary" onclick="newRound()" disabled>New Property</button>
       </div>
       <div id="result" class="result" style="display: none;"></div>
     </div>
@@ -93,8 +112,13 @@
   </div>
 
   <script>
+    const THRESHOLD = 75; // accuracy cutoff for revealing the price
+
     let properties = [];
     let current = null;
+
+    const submitBtn = document.getElementById("submitBtn");
+    const newPropertyBtn = document.getElementById("newPropertyBtn");
 
     async function loadData() {
       const res = await fetch("https://api.tripgeo.com/api/rentcast");
@@ -103,10 +127,38 @@
       newRound();
     }
 
+    function formatHints(prop) {
+      const hints = [
+        prop.yearBuilt ? `Built in ${prop.yearBuilt}` : null,
+        prop.bedrooms ? `${prop.bedrooms} bed` : null,
+        prop.bathrooms ? `${prop.bathrooms} bath` : null,
+        prop.squareFootage ? `${prop.squareFootage.toLocaleString()} sqft` : null,
+        prop.lotSize ? `Lot: ${prop.lotSize.toLocaleString()} sqft` : null
+      ].filter(Boolean).join(", ");
+      return hints;
+    }
+
     function newRound() {
       document.getElementById("result").style.display = "none";
+      const propInfoEl = document.getElementById("propertyInfo");
+      propInfoEl.style.display = "none";
+      propInfoEl.textContent = "";
       document.getElementById("guessInput").value = "";
-      if (properties.length === 0) return;
+
+      // Reset button states
+      submitBtn.disabled = false;
+      submitBtn.classList.add("primary");
+      newPropertyBtn.disabled = true;
+      newPropertyBtn.classList.remove("active");
+
+      if (!properties || properties.length === 0) {
+        document.getElementById("prompt").textContent = "No properties loaded.";
+        document.getElementById("image-container").innerHTML =
+          `<div style="height:300px;display:flex;align-items:center;justify-content:center;background:#eee;border-radius:10px;">
+            No properties available
+          </div>`;
+        return;
+      }
 
       current = properties[Math.floor(Math.random() * properties.length)];
       const prompt = `Guess the listing price for this property in ${current.city}, ${current.state}`;
@@ -124,22 +176,55 @@
             No Street View Available
           </div>`;
       }
+
+      current._hints = formatHints(current);
     }
 
     function checkGuess() {
-      const guess = parseInt(document.getElementById("guessInput").value);
+      const inputVal = document.getElementById("guessInput").value;
+      const guess = parseInt(inputVal, 10);
       if (!current || isNaN(guess)) return;
 
       const actual = current.price;
-      const diff = Math.abs(actual - guess);
-      const pct = ((diff / actual) * 100).toFixed(1);
+      let accuracy = Math.max(0, (1 - Math.abs(actual - guess) / actual) * 100);
+      accuracy = Number(accuracy.toFixed(1));
 
       const resultDiv = document.getElementById("result");
-      resultDiv.innerHTML = `
-        <p><b>Actual Price:</b> $${actual.toLocaleString()}</p>
-        <p><b>Your Guess Difference:</b> $${diff.toLocaleString()}</p>
-        <p><b>Accuracy:</b> ${100 - pct}%</p>
-      `;
+
+      let directionHint = "";
+      if (guess < actual) directionHint = "💰 The actual price is higher than your guess.";
+      else if (guess > actual) directionHint = "📉 The actual price is lower than your guess.";
+
+      if (accuracy >= THRESHOLD) {
+        // Reveal price + accuracy
+        resultDiv.innerHTML = `
+          <p><b>Actual Price:</b> $${actual.toLocaleString()}</p>
+          <p><b>Accuracy:</b> ${accuracy}%</p>
+          <p>${directionHint}</p>
+        `;
+        document.getElementById("propertyInfo").style.display = "none";
+
+        // Enable New Property button
+        newPropertyBtn.disabled = false;
+        newPropertyBtn.classList.add("active");
+
+        // Disable Submit button
+        submitBtn.disabled = true;
+        submitBtn.classList.remove("primary");
+
+      } else {
+        // Hide price, show hint + accuracy
+        const propInfoEl = document.getElementById("propertyInfo");
+        propInfoEl.innerHTML = `<strong>That guess was way off. Have a clue - </strong> ${current._hints}`;
+        propInfoEl.style.display = "block";
+
+        resultDiv.innerHTML = `
+          <p><b>Accuracy:</b> ${accuracy}%</p>
+          <p><em>The actual price is hidden until your guess is closer!</em></p>
+          <p>${directionHint}</p>
+        `;
+      }
+
       resultDiv.style.display = "block";
     }
 
