@@ -193,7 +193,7 @@
       current._hints = formatHints(current);
     }
 
-    function checkGuess() {
+ function checkGuess() {
   const inputVal = document.getElementById("guessInput").value;
   const guess = parseInt(inputVal, 10);
   if (!current || isNaN(guess)) return;
@@ -224,23 +224,30 @@
     submitBtn.classList.remove("primary");
 
   } else {
-    // Hide price, show hints + higher/lower clue
+    // Hide price, show hints
     const propInfoEl = document.getElementById("propertyInfo");
     propInfoEl.innerHTML = `<strong>That guess was way off. Have a clue - </strong> ${current._hints}`;
     propInfoEl.style.display = "block";
 
-    const directionMsg = guess > actual
-      ? "💰 The actual price is lower than your guess."
-      : "💰 The actual price is higher than your guess.";
+    // First attempt: encourage Street View
+    let hintMsg;
+    if (attempts === 1) {
+      hintMsg = "🗺️ You can click on the Street View image to explore the neighborhood in Google Maps.";
+    } else {
+      hintMsg = guess > actual
+        ? "💰 The actual price is lower than your guess."
+        : "💰 The actual price is higher than your guess.";
+    }
 
     resultDiv.innerHTML = `
       <p><b>Accuracy:</b> ${accuracy}%</p>
-      <p>${directionMsg}</p>
+      <p>${hintMsg}</p>
     `;
   }
 
   resultDiv.style.display = "block";
 }
+
 
     loadData();
   </script>
