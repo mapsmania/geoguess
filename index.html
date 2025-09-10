@@ -13,17 +13,32 @@
     }
     h1 { margin-bottom: 20px; }
     .card {
+      display: flex;
+      flex-direction: column; /* stacked by default */
+      gap: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
       background: #fff;
       border-radius: 12px;
       padding: 20px;
-      max-width: 600px;
-      margin: 0 auto;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .left, .right {
+      flex: 1;
+    }
+    /* mobile order: image first, text second */
+    .left { order: 2; }
+    .right { order: 1; }
+    .left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: left;
     }
     img {
       border-radius: 10px;
       max-width: 100%;
-      margin-bottom: 15px;
+      height: auto;
     }
     input {
       padding: 10px;
@@ -35,7 +50,7 @@
     }
     button {
       padding: 10px 16px;
-      margin: 5px;
+      margin: 5px 5px 5px 0;
       border: none;
       border-radius: 8px;
       cursor: pointer;
@@ -49,65 +64,67 @@
       padding: 15px;
       margin-top: 15px;
     }
+    /* desktop: side-by-side with text left, image right */
+    @media screen and (min-width: 768px) {
+      .card {
+        flex-direction: row;
+        align-items: flex-start;
+      }
+      .left { order: 1; }
+      .right { order: 2; }
+    }
   </style>
 </head>
 <body>
   <h1>🏠 Price Guessing Game</h1>
   <div class="card">
-    <div id="image-container">
+    <div class="left">
+      <p id="prompt"></p>
+      <input id="guessInput" type="number" placeholder="Enter your guess ($)">
+      <div>
+        <button class="primary" onclick="checkGuess()">Submit Guess</button>
+        <button class="secondary" onclick="newRound()">New Property</button>
+      </div>
+      <div id="result" class="result" style="display: none;"></div>
+    </div>
+    <div class="right" id="image-container">
       <p>Loading property...</p>
     </div>
-    <p id="prompt"></p>
-    <input id="guessInput" type="number" placeholder="Enter your guess ($)">
-    <div>
-      <button class="primary" onclick="checkGuess()">Submit Guess</button>
-      <button class="secondary" onclick="newRound()">New Property</button>
-    </div>
-    <div id="result" class="result" style="display: none;"></div>
   </div>
 
   <script>
-    const apiKey = "YOUR_GOOGLE_MAPS_API_KEY"; // replace with your Google Maps API key
     let properties = [];
     let current = null;
 
     async function loadData() {
-  const res = await fetch("https://mapsmania.github.io/geoguess/rentcast.json");
-  const data = await res.json();
-
-  // data itself is already an array of property objects
-  properties = data;  
-
-  newRound();
-}
-
+      const res = await fetch("https://mapsmania.github.io/geoguess/rentcast.json");
+      const data = await res.json();
+      properties = data;
+      newRound();
+    }
 
     function newRound() {
-  document.getElementById("result").style.display = "none";
-  document.getElementById("guessInput").value = "";
-  if (properties.length === 0) return;
+      document.getElementById("result").style.display = "none";
+      document.getElementById("guessInput").value = "";
+      if (properties.length === 0) return;
 
-  current = properties[Math.floor(Math.random() * properties.length)];
-  const prompt = `Guess the listing price for this property in ${current.city}, ${current.state}`;
+      current = properties[Math.floor(Math.random() * properties.length)];
+      const prompt = `Guess the listing price for this property in ${current.city}, ${current.state}`;
+      document.getElementById("prompt").textContent = prompt;
 
-  document.getElementById("prompt").textContent = prompt;
-
-  if (current.streetView && current.streetView.panoId) {
-    const panoId = current.streetView.panoId;
-    const direction = current.streetView.direction ?? 0; // default to 0 if missing
-    const url = `https://api.tripgeo.com/api/StreetViewImage/${panoId}_${direction}`;
-
-    document.getElementById("image-container").innerHTML =
-      `<img src="${url}" alt="Street View" />`;
-  } else {
-    document.getElementById("image-container").innerHTML =
-      `<div style="height:300px;display:flex;align-items:center;justify-content:center;background:#eee;border-radius:10px;">
-        No Street View Available
-      </div>`;
-  }
-}
-
-
+      if (current.streetView && current.streetView.panoId) {
+        const panoId = current.streetView.panoId;
+        const direction = current.streetView.direction ?? 0;
+        const url = `https://api.tripgeo.com/api/StreetViewImage/${panoId}_${direction}`;
+        document.getElementById("image-container").innerHTML =
+          `<img src="${url}" alt="Street View" />`;
+      } else {
+        document.getElementById("image-container").innerHTML =
+          `<div style="height:300px;display:flex;align-items:center;justify-content:center;background:#eee;border-radius:10px;">
+            No Street View Available
+          </div>`;
+      }
+    }
 
     function checkGuess() {
       const guess = parseInt(document.getElementById("guessInput").value);
