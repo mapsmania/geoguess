@@ -166,17 +166,26 @@
       document.getElementById("prompt").textContent = prompt;
 
       if (current.streetView && current.streetView.panoId) {
-        const panoId = current.streetView.panoId;
-        const direction = current.streetView.direction ?? 0;
-        const url = `https://api.tripgeo.com/api/StreetViewImage/${panoId}_${direction}`;
-        document.getElementById("image-container").innerHTML =
-          `<img src="${url}" alt="Street View" />`;
-      } else {
-        document.getElementById("image-container").innerHTML =
-          `<div style="height:300px;display:flex;align-items:center;justify-content:center;background:#eee;border-radius:10px;">
-            No Street View Available
-          </div>`;
-      }
+  const panoId = current.streetView.panoId;
+  const direction = current.streetView.direction ?? 0;
+  const url = `https://api.tripgeo.com/api/StreetViewImage/${panoId}_${direction}`;
+  
+  // Google Maps Street View link
+  const lat = current.streetView.panoramaLat;
+  const lng = current.streetView.panoramaLng;
+  const gmapsUrl = `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${lat},${lng}&heading=${direction}`;
+  
+  document.getElementById("image-container").innerHTML =
+    `<a href="${gmapsUrl}" target="_blank" title="Click to view in Google Maps">
+       <img src="${url}" alt="Street View" style="cursor: pointer;" />
+     </a>`;
+} else {
+  document.getElementById("image-container").innerHTML =
+    `<div style="height:300px;display:flex;align-items:center;justify-content:center;background:#eee;border-radius:10px;">
+      No Street View Available
+    </div>`;
+}
+
 
       current._hints = formatHints(current);
     }
