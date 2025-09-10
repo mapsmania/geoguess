@@ -112,10 +112,10 @@
   </div>
 
   <script>
-    const THRESHOLD = 75; // accuracy cutoff for revealing the price
-
+    const THRESHOLD = 75; // accuracy cutoff
     let properties = [];
     let current = null;
+    let attempts = 0; // track attempts
 
     const submitBtn = document.getElementById("submitBtn");
     const newPropertyBtn = document.getElementById("newPropertyBtn");
@@ -144,6 +144,7 @@
       propInfoEl.style.display = "none";
       propInfoEl.textContent = "";
       document.getElementById("guessInput").value = "";
+      attempts = 0; // reset attempts
 
       // Reset button states
       submitBtn.disabled = false;
@@ -181,52 +182,53 @@
     }
 
     function checkGuess() {
-      const inputVal = document.getElementById("guessInput").value;
-      const guess = parseInt(inputVal, 10);
-      if (!current || isNaN(guess)) return;
+  const inputVal = document.getElementById("guessInput").value;
+  const guess = parseInt(inputVal, 10);
+  if (!current || isNaN(guess)) return;
 
-      const actual = current.price;
-      let accuracy = Math.max(0, (1 - Math.abs(actual - guess) / actual) * 100);
-      accuracy = Number(accuracy.toFixed(1));
+  attempts++; // increment attempts
 
-      const resultDiv = document.getElementById("result");
+  const actual = current.price;
+  let accuracy = Math.max(0, (1 - Math.abs(actual - guess) / actual) * 100);
+  accuracy = Number(accuracy.toFixed(1));
 
-      let directionHint = "";
-      if (guess < actual) directionHint = "💰 The actual price is higher than your guess.";
-      else if (guess > actual) directionHint = "📉 The actual price is lower than your guess.";
+  const resultDiv = document.getElementById("result");
 
-      if (accuracy >= THRESHOLD) {
-        // Reveal price + accuracy
-        resultDiv.innerHTML = `
-          <p><b>Actual Price:</b> $${actual.toLocaleString()}</p>
-          <p><b>Accuracy:</b> ${accuracy}%</p>
-          <p>${directionHint}</p>
-        `;
-        document.getElementById("propertyInfo").style.display = "none";
+  if (accuracy >= THRESHOLD) {
+    // Reveal price + attempts
+    resultDiv.innerHTML = `
+      <p><b>Actual Price:</b> $${actual.toLocaleString()}</p>
+      <p><b>Accuracy:</b> ${accuracy}%</p>
+      <p>🎉 Well done. It took you <b>${attempts}</b> attempt${attempts > 1 ? "s" : ""} to get within 75% of the right price.</p>
+    `;
+    document.getElementById("propertyInfo").style.display = "none";
 
-        // Enable New Property button
-        newPropertyBtn.disabled = false;
-        newPropertyBtn.classList.add("active");
+    // Enable New Property button
+    newPropertyBtn.disabled = false;
+    newPropertyBtn.classList.add("active");
 
-        // Disable Submit button
-        submitBtn.disabled = true;
-        submitBtn.classList.remove("primary");
+    // Disable Submit button
+    submitBtn.disabled = true;
+    submitBtn.classList.remove("primary");
 
-      } else {
-        // Hide price, show hint + accuracy
-        const propInfoEl = document.getElementById("propertyInfo");
-        propInfoEl.innerHTML = `<strong>That guess was way off. Have a clue - </strong> ${current._hints}`;
-        propInfoEl.style.display = "block";
+  } else {
+    // Hide price, show hints + higher/lower clue
+    const propInfoEl = document.getElementById("propertyInfo");
+    propInfoEl.innerHTML = `<strong>That guess was way off. Have a clue - </strong> ${current._hints}`;
+    propInfoEl.style.display = "block";
 
-        resultDiv.innerHTML = `
-          <p><b>Accuracy:</b> ${accuracy}%</p>
-          <p><em>The actual price is hidden until your guess is closer!</em></p>
-          <p>${directionHint}</p>
-        `;
-      }
+    const directionMsg = guess > actual
+      ? "💰 The actual price is lower than your guess."
+      : "💰 The actual price is higher than your guess.";
 
-      resultDiv.style.display = "block";
-    }
+    resultDiv.innerHTML = `
+      <p><b>Accuracy:</b> ${accuracy}%</p>
+      <p>${directionMsg}</p>
+    `;
+  }
+
+  resultDiv.style.display = "block";
+}
 
     loadData();
   </script>
