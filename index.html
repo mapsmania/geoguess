@@ -178,7 +178,10 @@
   document.getElementById("image-container").innerHTML =
     `<a href="${gmapsUrl}" target="_blank" title="Click to view in Google Maps">
        <img src="${url}" alt="Street View" style="cursor: pointer;" />
-     </a>`;
+     </a>
+          <p style="font-size: 12px; color: #666; margin-top: 5px;">
+       Street View imagery © Google 2025
+     </p>`;
 } else {
   document.getElementById("image-container").innerHTML =
     `<div style="height:300px;display:flex;align-items:center;justify-content:center;background:#eee;border-radius:10px;">
