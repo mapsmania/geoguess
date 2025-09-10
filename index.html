@@ -83,22 +83,31 @@
 
 
     function newRound() {
-      document.getElementById("result").style.display = "none";
-      document.getElementById("guessInput").value = "";
-      if (properties.length === 0) return;
+  document.getElementById("result").style.display = "none";
+  document.getElementById("guessInput").value = "";
+  if (properties.length === 0) return;
 
-      current = properties[Math.floor(Math.random() * properties.length)];
-      const prompt = `Guess the listing price for this property in ${current.city}, ${current.state}`;
+  current = properties[Math.floor(Math.random() * properties.length)];
+  const prompt = `Guess the listing price for this property in ${current.city}, ${current.state}`;
 
-      document.getElementById("prompt").textContent = prompt;
+  document.getElementById("prompt").textContent = prompt;
 
-      if (current.streetView && current.streetView.panoId) {
-        const url = `https://maps.googleapis.com/maps/api/streetview?pano=${current.streetView.panoId}&size=600x400&key=${apiKey}`;
-        document.getElementById("image-container").innerHTML = `<img src=\"${url}\" alt=\"Street View\">`;
-      } else {
-        document.getElementById("image-container").innerHTML = `<div style=\"height:300px;display:flex;align-items:center;justify-content:center;background:#eee;border-radius:10px;\">No Street View Available</div>`;
-      }
-    }
+  if (current.streetView && current.streetView.panoId) {
+    const panoId = current.streetView.panoId;
+    const direction = current.streetView.direction ?? 0; // default to 0 if missing
+    const url = `https://api.tripgeo.com/api/StreetViewImage/${panoId}_${direction}`;
+
+    document.getElementById("image-container").innerHTML =
+      `<img src="${url}" alt="Street View" />`;
+  } else {
+    document.getElementById("image-container").innerHTML =
+      `<div style="height:300px;display:flex;align-items:center;justify-content:center;background:#eee;border-radius:10px;">
+        No Street View Available
+      </div>`;
+  }
+}
+
+
 
     function checkGuess() {
       const guess = parseInt(document.getElementById("guessInput").value);
