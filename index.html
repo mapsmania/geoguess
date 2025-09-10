@@ -97,7 +97,7 @@
     let current = null;
 
     async function loadData() {
-      const res = await fetch("https://mapsmania.github.io/geoguess/rentcast.json");
+      const res = await fetch("https://api.tripgeo.com/api/rentcast");
       const data = await res.json();
       properties = data;
       newRound();
