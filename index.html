@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>🏠 Price Guessing Game</title>
+  <title>🏠 Price it Right!</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -94,7 +94,7 @@
   </style>
 </head>
 <body>
-  <h1>🏠 Price Guessing Game</h1>
+  <h1>🏠 Price It Right!</h1>
   <div class="card">
     <div class="left">
       <p id="prompt"></p>
@@ -139,33 +139,38 @@
     }
 
     function newRound() {
-      document.getElementById("result").style.display = "none";
-      const propInfoEl = document.getElementById("propertyInfo");
-      propInfoEl.style.display = "none";
-      propInfoEl.textContent = "";
-      document.getElementById("guessInput").value = "";
-      attempts = 0; // reset attempts
+  document.getElementById("result").style.display = "none";
+  const propInfoEl = document.getElementById("propertyInfo");
+  propInfoEl.style.display = "none";
+  propInfoEl.textContent = "";
+  document.getElementById("guessInput").value = "";
+  attempts = 0; // reset attempts
 
-      // Reset button states
-      submitBtn.disabled = false;
-      submitBtn.classList.add("primary");
-      newPropertyBtn.disabled = true;
-      newPropertyBtn.classList.remove("active");
+  // Reset button states
+  submitBtn.disabled = false;
+  submitBtn.classList.add("primary");
+  newPropertyBtn.disabled = true;
+  newPropertyBtn.classList.remove("active");
 
-      if (!properties || properties.length === 0) {
-        document.getElementById("prompt").textContent = "No properties loaded.";
-        document.getElementById("image-container").innerHTML =
-          `<div style="height:300px;display:flex;align-items:center;justify-content:center;background:#eee;border-radius:10px;">
-            No properties available
-          </div>`;
-        return;
-      }
+  if (!properties || properties.length === 0) {
+    document.getElementById("prompt").textContent = "No properties loaded.";
+    document.getElementById("image-container").innerHTML =
+      `<div style="height:300px;display:flex;align-items:center;justify-content:center;background:#eee;border-radius:10px;">
+        No properties available
+      </div>`;
+    return;
+  }
 
-      current = properties[Math.floor(Math.random() * properties.length)];
-      const prompt = `Guess the listing price for this property in ${current.city}, ${current.state}`;
-      document.getElementById("prompt").textContent = prompt;
+  // Loop to find a property with a valid Street View ID
+  let selected = null;
+  while (!selected || !selected.streetView || selected.streetView.panoId === 'null' || !selected.streetView.panoId) {
+    selected = properties[Math.floor(Math.random() * properties.length)];
+  }
+  current = selected;
 
-      if (current.streetView && current.streetView.panoId) {
+  const prompt = `Guess the listing price for this property in ${current.city}, ${current.state}`;
+  document.getElementById("prompt").textContent = prompt;
+
   const panoId = current.streetView.panoId;
   const direction = current.streetView.direction ?? 0;
   const url = `https://api.tripgeo.com/api/StreetViewImage/${panoId}_${direction}`;
@@ -177,77 +182,70 @@
   
   document.getElementById("image-container").innerHTML =
     `<a href="${gmapsUrl}" target="_blank" title="Click to view in Google Maps">
-       <img src="${url}" alt="Street View" style="cursor: pointer;" />
-     </a>
-          <p style="font-size: 12px; color: #666; margin-top: 5px;">
-       Street View imagery © Google 2025
-     </p>`;
-} else {
-  document.getElementById("image-container").innerHTML =
-    `<div style="height:300px;display:flex;align-items:center;justify-content:center;background:#eee;border-radius:10px;">
-      No Street View Available
-    </div>`;
+      <img src="${url}" alt="Street View" style="cursor: pointer;" />
+    </a>
+    <p style="font-size: 12px; color: #666; margin-top: 5px;">
+      Street View imagery © Google 2025
+    </p>`;
+
+  current._hints = formatHints(current);
 }
 
 
-      current._hints = formatHints(current);
-    }
-
- function checkGuess() {
+  function checkGuess() {
   const inputVal = document.getElementById("guessInput").value;
   const guess = parseInt(inputVal, 10);
   if (!current || isNaN(guess)) return;
 
-  attempts++; // increment attempts
-
+  attempts++; // Increment attempts
   const actual = current.price;
-  let accuracy = Math.max(0, (1 - Math.abs(actual - guess) / actual) * 100);
-  accuracy = Number(accuracy.toFixed(1));
-
   const resultDiv = document.getElementById("result");
+  const propInfoEl = document.getElementById("propertyInfo");
+  propInfoEl.style.display = "none"; // Hide any previous hints
 
-  if (accuracy >= THRESHOLD) {
-    // Reveal price + attempts
-    resultDiv.innerHTML = `
-      <p><b>Actual Price:</b> $${actual.toLocaleString()}</p>
-      <p><b>Accuracy:</b> ${accuracy}%</p>
-      <p>🎉 Well done. It took you <b>${attempts}</b> attempt${attempts > 1 ? "s" : ""} to get within 75% of the right price.</p>
-    `;
-    document.getElementById("propertyInfo").style.display = "none";
-
-    // Enable New Property button
-    newPropertyBtn.disabled = false;
-    newPropertyBtn.classList.add("active");
-
-    // Disable Submit button
-    submitBtn.disabled = true;
-    submitBtn.classList.remove("primary");
-
-  } else {
-    // Hide price, show hints
-    const propInfoEl = document.getElementById("propertyInfo");
-    propInfoEl.innerHTML = `<strong>That guess was way off. Have a clue - </strong> ${current._hints}`;
-    propInfoEl.style.display = "block";
-
-    // First attempt: encourage Street View
+  if (attempts === 1) {
+    // First guess: Provide a simple high-low hint
     let hintMsg;
-    if (attempts === 1) {
-      hintMsg = "🗺️ You can click on the Street View image to explore the neighborhood in Google Maps.";
+    if (guess > actual) {
+      hintMsg = "💰 Your guess was <b>too high</b>. Try again!";
     } else {
-      hintMsg = guess > actual
+      hintMsg = "💰 Your guess was <b>too low</b>. Try again!";
+    }
+    resultDiv.innerHTML = `<p>${hintMsg}</p>`;
+    resultDiv.style.display = "block";
+  } else {
+    // Second and subsequent guesses: Show accuracy and final result
+    let accuracy = Math.max(0, (1 - Math.abs(actual - guess) / actual) * 100);
+    accuracy = Number(accuracy.toFixed(1));
+
+    if (accuracy >= THRESHOLD) {
+      // Correct guess (within threshold)
+      resultDiv.innerHTML = `
+        <p><b>Actual Price:</b> $${actual.toLocaleString()}</p>
+        <p><b>Accuracy:</b> ${accuracy}%</p>
+        <p>🎉 Well done! It took you <b>${attempts}</b> attempt${attempts > 1 ? "s" : ""} to get within 75% of the right price.</p>
+      `;
+      newPropertyBtn.disabled = false;
+      newPropertyBtn.classList.add("active");
+      submitBtn.disabled = true;
+      submitBtn.classList.remove("primary");
+    } else {
+      // Incorrect guess: Show accuracy and reveal hints
+      const hintMsg = guess > actual
         ? "💰 The actual price is lower than your guess."
         : "💰 The actual price is higher than your guess.";
+
+      resultDiv.innerHTML = `
+        <p><b>Accuracy:</b> ${accuracy}%</p>
+        <p>${hintMsg}</p>
+      `;
+      propInfoEl.innerHTML = `<b>Still way off.</b> Here are some clues: ${current._hints}`;
+      propInfoEl.style.display = "block";
     }
-
-    resultDiv.innerHTML = `
-      <p><b>Accuracy:</b> ${accuracy}%</p>
-      <p>${hintMsg}</p>
-    `;
+    resultDiv.style.display = "block";
   }
-
-  resultDiv.style.display = "block";
 }
-
+ 
 
     loadData();
   </script>
