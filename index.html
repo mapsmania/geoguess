@@ -121,7 +121,7 @@
     const newPropertyBtn = document.getElementById("newPropertyBtn");
 
     async function loadData() {
-      const res = await fetch("https://api.tripgeo.com/api/rentcast");
+      const res = await fetch("https://mapsmania.github.io/geoguess/rentcast.json");
       const data = await res.json();
       properties = data;
       newRound();
@@ -192,7 +192,7 @@
 }
 
 
-  function checkGuess() {
+ function checkGuess() {
   const inputVal = document.getElementById("guessInput").value;
   const guess = parseInt(inputVal, 10);
   if (!current || isNaN(guess)) return;
@@ -213,8 +213,20 @@
     }
     resultDiv.innerHTML = `<p>${hintMsg}</p>`;
     resultDiv.style.display = "block";
+
+  } else if (attempts === 2) {
+    // Second guess: Provide high-low hint and the "Still way off" clue
+    const hintMsg = guess > actual
+      ? "💰 The actual price is lower than your guess."
+      : "💰 The actual price is higher than your guess.";
+
+    resultDiv.innerHTML = `<p>${hintMsg}</p>`;
+    propInfoEl.innerHTML = `<b>Still way off.</b> Here are some clues: ${current._hints}`;
+    propInfoEl.style.display = "block";
+    resultDiv.style.display = "block";
+
   } else {
-    // Second and subsequent guesses: Show accuracy and final result
+    // Third and subsequent guesses: Show accuracy, high-low, and all clues
     let accuracy = Math.max(0, (1 - Math.abs(actual - guess) / actual) * 100);
     accuracy = Number(accuracy.toFixed(1));
 
@@ -230,7 +242,7 @@
       submitBtn.disabled = true;
       submitBtn.classList.remove("primary");
     } else {
-      // Incorrect guess: Show accuracy and reveal hints
+      // Incorrect guess: Show all clues
       const hintMsg = guess > actual
         ? "💰 The actual price is lower than your guess."
         : "💰 The actual price is higher than your guess.";
