@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>🏠 Price it Right!</title>
+  <title>🏠 House of the Day!</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -65,18 +65,9 @@
       transition: all 0.2s ease;
     }
     button.primary { background: #4CAF50; color: white; }
-    button.secondary { 
-      background: #eee; 
-      color: #333;
-    }
-    button.secondary.active { 
-      background: #4CAF50;  /* green when active */
-      color: white;
-    }
-    button:disabled {
-      background: #ccc;
-      cursor: not-allowed;
-    }
+    button.secondary { background: #eee; color: #333; }
+    button.secondary.active { background: #4CAF50; color: white; }
+    button:disabled { background: #ccc; cursor: not-allowed; }
     .result {
       background: #f0f0f0;
       border-radius: 8px;
@@ -84,17 +75,14 @@
       margin-top: 15px;
     }
     @media screen and (min-width: 768px) {
-      .card {
-        flex-direction: row;
-        align-items: flex-start;
-      }
+      .card { flex-direction: row; align-items: flex-start; }
       .left { order: 1; }
       .right { order: 2; }
     }
   </style>
 </head>
 <body>
-  <h1>🏠 Price It Right!</h1>
+  <h1>🏠 House of the Day!</h1>
   <div class="card">
     <div class="left">
       <p id="prompt"></p>
@@ -111,155 +99,184 @@
     </div>
   </div>
 
-  <script>
-    const THRESHOLD = 75; // accuracy cutoff
-    let properties = [];
-    let current = null;
-    let attempts = 0; // track attempts
+<script>
+  const THRESHOLD = 75; // accuracy cutoff
+  let properties = [];
+  let current = null;
+  let currentIndex = 0; // <--- track position in feed
+  let attempts = 0;
 
-    const submitBtn = document.getElementById("submitBtn");
-    const newPropertyBtn = document.getElementById("newPropertyBtn");
-
-    async function loadData() {
-      const res = await fetch("https://api.tripgeo.com/api/rentcast");
-      const data = await res.json();
-      properties = data;
-      newRound();
-    }
-
-    function formatHints(prop) {
-      const hints = [
-        prop.yearBuilt ? `Built in ${prop.yearBuilt}` : null,
-        prop.bedrooms ? `${prop.bedrooms} bed` : null,
-        prop.bathrooms ? `${prop.bathrooms} bath` : null,
-        prop.squareFootage ? `${prop.squareFootage.toLocaleString()} sqft` : null,
-        prop.lotSize ? `Lot: ${prop.lotSize.toLocaleString()} sqft` : null
-      ].filter(Boolean).join(", ");
-      return hints;
-    }
-
-    function newRound() {
-  document.getElementById("result").style.display = "none";
-  const propInfoEl = document.getElementById("propertyInfo");
-  propInfoEl.style.display = "none";
-  propInfoEl.textContent = "";
-  document.getElementById("guessInput").value = "";
-  attempts = 0; // reset attempts
-
-  // Reset button states
-  submitBtn.disabled = false;
-  submitBtn.classList.add("primary");
-  newPropertyBtn.disabled = true;
-  newPropertyBtn.classList.remove("active");
-
-  if (!properties || properties.length === 0) {
-    document.getElementById("prompt").textContent = "No properties loaded.";
-    document.getElementById("image-container").innerHTML =
-      `<div style="height:300px;display:flex;align-items:center;justify-content:center;background:#eee;border-radius:10px;">
-        No properties available
-      </div>`;
-    return;
-  }
-
-  // Loop to find a property with a valid Street View ID
-  let selected = null;
-  while (!selected || !selected.streetView || selected.streetView.panoId === 'null' || !selected.streetView.panoId) {
-    selected = properties[Math.floor(Math.random() * properties.length)];
-  }
-  current = selected;
-
-  const prompt = `Guess the listing price for this property in ${current.city}, ${current.state}`;
-  document.getElementById("prompt").textContent = prompt;
-
-  const panoId = current.streetView.panoId;
-  const direction = current.streetView.direction ?? 0;
-  const url = `https://api.tripgeo.com/api/StreetViewImage/${panoId}_${direction}`;
-  
-  // Google Maps Street View link
-  const lat = current.streetView.panoramaLat;
-  const lng = current.streetView.panoramaLng;
-  const gmapsUrl = `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${lat},${lng}&heading=${direction}`;
-  
-  document.getElementById("image-container").innerHTML =
-    `<a href="${gmapsUrl}" target="_blank" title="Click to view in Google Maps">
-      <img src="${url}" alt="Street View" style="cursor: pointer;" />
-    </a>
-    <p style="font-size: 12px; color: #666; margin-top: 5px;">
-      Street View imagery © Google 2025
-    </p>`;
-
-  current._hints = formatHints(current);
-}
-
-
- function checkGuess() {
-  const inputVal = document.getElementById("guessInput").value;
-  const guess = parseInt(inputVal, 10);
-  if (!current || isNaN(guess)) return;
-
-  attempts++; // Increment attempts
-  const actual = current.price;
+  // DOM references
+  const submitBtn = document.getElementById("submitBtn");
+  const newPropertyBtn = document.getElementById("newPropertyBtn");
   const resultDiv = document.getElementById("result");
   const propInfoEl = document.getElementById("propertyInfo");
-  propInfoEl.style.display = "none"; // Hide any previous hints
+  const promptEl = document.getElementById("prompt");
+  const imageContainer = document.getElementById("image-container");
+  const guessInput = document.getElementById("guessInput");
 
-  if (attempts === 1) {
-    // First guess: Provide a simple high-low hint
-    let hintMsg;
-    if (guess > actual) {
-      hintMsg = "💰 Your guess was <b>too high</b>. Try again!";
-    } else {
-      hintMsg = "💰 Your guess was <b>too low</b>. Try again!";
+  // Funny comments
+  const lowComments = [
+  c => `That’s a bargain for ${c.city}! This place costs way more.`,
+  c => `Nice try, but you won’t find prices that low in ${c.city} since 1995.`,
+  c => `This isn’t a yard sale in ${c.city} — aim higher!`,
+  c => `Dreaming of 2008 prices? Nope, it’s pricier in ${c.city} these days.`,
+  c => `For that price you’d be buying just the doormat in ${c.city}!` // 👈 new one
+];
+  const highComments = [
+    c => `Woah there buddy — this is ${c.city}, not Bel Air!`,
+    c => `At that price they’d throw in a free yacht… keep guessing!`,
+    c => `Slow down, Jeff Bezos — it’s not *that* expensive.`,
+    c => `At that price you could buy half of ${c.city}!`,
+    c => `This isn’t a private island — dial it back.`,
+    c => `Even in ${c.city}, that’s a bit rich!`
+  ];
+  function randomComment(isLow) {
+    const list = isLow ? lowComments : highComments;
+    const fn = list[Math.floor(Math.random() * list.length)];
+    return fn(current);
+  }
+
+  async function loadData() {
+    const res = await fetch("https://api.tripgeo.com/api/rentcast");
+    const data = await res.json();
+    properties = data;
+    currentIndex = 0;
+    newRound();
+  }
+
+  function formatHints(prop) {
+    const hints = [
+      prop.yearBuilt ? `Built in ${prop.yearBuilt}` : null,
+      prop.bedrooms ? `${prop.bedrooms} bed` : null,
+      prop.bathrooms ? `${prop.bathrooms} bath` : null,
+      prop.squareFootage ? `${prop.squareFootage.toLocaleString()} sqft` : null,
+      prop.lotSize ? `Lot: ${prop.lotSize.toLocaleString()} sqft` : null
+    ].filter(Boolean).join(", ");
+    return hints;
+  }
+
+  function getNextProperty() {
+    while (
+      currentIndex < properties.length &&
+      (!properties[currentIndex].streetView ||
+        !properties[currentIndex].streetView.panoId ||
+        properties[currentIndex].streetView.panoId === "null")
+    ) {
+      currentIndex++;
     }
-    resultDiv.innerHTML = `<p>${hintMsg}</p>`;
-    resultDiv.style.display = "block";
+    if (currentIndex >= properties.length) return null;
+    return properties[currentIndex++];
+  }
 
-  } else if (attempts === 2) {
-    // Second guess: Provide high-low hint and the "Still way off" clue
-    const hintMsg = guess > actual
-      ? "💰 The actual price is lower than your guess."
-      : "💰 The actual price is higher than your guess.";
+  function newRound() {
+    // Reset UI
+    resultDiv.style.display = "none";
+    propInfoEl.style.display = "none";
+    propInfoEl.textContent = "";
+    guessInput.value = "";
+    attempts = 0;
 
-    resultDiv.innerHTML = `<p>${hintMsg}</p>`;
-    propInfoEl.innerHTML = `<b>Still way off.</b> Here are some clues: ${current._hints}`;
-    propInfoEl.style.display = "block";
-    resultDiv.style.display = "block";
+    submitBtn.disabled = false;
+    submitBtn.classList.add("primary");
+    newPropertyBtn.disabled = true;
+    newPropertyBtn.classList.remove("active");
 
-  } else {
-    // Third and subsequent guesses: Show accuracy, high-low, and all clues
-    let accuracy = Math.max(0, (1 - Math.abs(actual - guess) / actual) * 100);
+    if (!properties || properties.length === 0) {
+      promptEl.textContent = "No properties loaded.";
+      imageContainer.innerHTML =
+        `<div style="height:300px;display:flex;align-items:center;justify-content:center;background:#eee;border-radius:10px;">No properties available</div>`;
+      return;
+    }
+
+    current = getNextProperty();
+    if (!current) {
+      promptEl.textContent = "No valid properties with Street View.";
+      imageContainer.innerHTML =
+        `<div style="height:300px;display:flex;align-items:center;justify-content:center;background:#eee;border-radius:10px;">No valid properties</div>`;
+      return;
+    }
+
+    promptEl.textContent = `Guess the listing price for this property in ${current.city}, ${current.state}`;
+
+    if (current.streetView && current.streetView.panoId) {
+      const panoId = current.streetView.panoId;
+      const direction = current.streetView.direction ?? 0;
+      const url = `https://api.tripgeo.com/api/StreetViewImage/${panoId}_${direction}`;
+      const lat = current.streetView.panoramaLat;
+      const lng = current.streetView.panoramaLng;
+      const gmapsUrl = `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${lat},${lng}&heading=${direction}`;
+      imageContainer.innerHTML = `
+        <a href="${gmapsUrl}" target="_blank" title="Click to view in Google Maps" style="text-decoration:none;">
+          <img src="${url}" alt="Street View" style="cursor:pointer;border-radius:10px;max-width:100%;height:auto;" />
+        </a>
+        <p style="font-size:12px;color:#666;margin-top:5px;">Street View imagery © Google 2025</p>`;
+    } else {
+      imageContainer.innerHTML =
+        `<div style="height:300px;display:flex;align-items:center;justify-content:center;background:#eee;border-radius:10px;">
+           No Street View Available
+         </div>`;
+    }
+
+    current._hints = formatHints(current);
+  }
+
+  function checkGuess() {
+    const inputVal = guessInput.value;
+    const guess = parseInt(inputVal, 10);
+    if (!current || isNaN(guess)) return;
+
+    attempts++;
+    propInfoEl.style.display = "none";
+
+    const actual = current.price;
+
+    if (attempts === 1) {
+      const isLow = guess < actual;
+      const funny = randomComment(isLow);
+      const tip = `🗺️ You can click the Street View image to explore the neighborhood.`;
+      resultDiv.innerHTML = `<p>${funny}</p><p>${tip}</p>`;
+      resultDiv.style.display = "block";
+      return;
+    }
+
+    if (attempts === 2) {
+      const isLow = guess < actual;
+      const funny = randomComment(isLow);
+      const highLow = guess > actual ? "💰 The actual price is lower than your guess." : "💰 The actual price is higher than your guess.";
+      resultDiv.innerHTML = `<p>${funny}</p><p>${highLow}</p>`;
+      propInfoEl.innerHTML = `<b>Still way off.</b> Here are some clues: ${current._hints}`;
+      propInfoEl.style.display = "block";
+      resultDiv.style.display = "block";
+      return;
+    }
+
+    let accuracy = actual > 0 ? Math.max(0, (1 - Math.abs(actual - guess) / actual) * 100) : (guess === actual ? 100 : 0);
     accuracy = Number(accuracy.toFixed(1));
 
+    const isLow = guess < actual;
+    const funny = randomComment(isLow);
+    const highLow = guess > actual ? "💰 The actual price is lower than your guess." : "💰 The actual price is higher than your guess.";
+
     if (accuracy >= THRESHOLD) {
-      // Correct guess (within threshold)
       resultDiv.innerHTML = `
         <p><b>Actual Price:</b> $${actual.toLocaleString()}</p>
         <p><b>Accuracy:</b> ${accuracy}%</p>
-        <p>🎉 Well done! It took you <b>${attempts}</b> attempt${attempts > 1 ? "s" : ""} to get within 75% of the right price.</p>
-      `;
+        <p>🎉 Well done! It took you <b>${attempts}</b> attempt${attempts > 1 ? "s" : ""} to get within ${THRESHOLD}% of the price.</p>`;
+      propInfoEl.style.display = "none";
       newPropertyBtn.disabled = false;
       newPropertyBtn.classList.add("active");
       submitBtn.disabled = true;
       submitBtn.classList.remove("primary");
     } else {
-      // Incorrect guess: Show all clues
-      const hintMsg = guess > actual
-        ? "💰 The actual price is lower than your guess."
-        : "💰 The actual price is higher than your guess.";
-
-      resultDiv.innerHTML = `
-        <p><b>Accuracy:</b> ${accuracy}%</p>
-        <p>${hintMsg}</p>
-      `;
+      resultDiv.innerHTML = `<p>${funny}</p><p><b>Accuracy:</b> ${accuracy}%</p><p>${highLow}</p>`;
       propInfoEl.innerHTML = `<b>Still way off.</b> Here are some clues: ${current._hints}`;
       propInfoEl.style.display = "block";
     }
     resultDiv.style.display = "block";
   }
-}
- 
 
-    loadData();
-  </script>
+  loadData();
+</script>
 </body>
 </html>
