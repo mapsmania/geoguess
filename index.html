@@ -47,23 +47,54 @@
       max-width: 100%;
       height: auto;
     }
-    input {
-      padding: 10px;
-      width: 90%;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-      margin-bottom: 10px;
-      font-size: 16px;
-    }
-    button {
-      padding: 10px 16px;
-      margin: 5px 5px 5px 0;
-      border: none;
-      border-radius: 8px;
+
+    /* Spinner styles */
+    .btn {
+      box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+      border-radius: 0;
+      z-index: 200;
+      font-size: 38px;
+      padding: 0 12px;
+      background-color: #007bff;
+      color: #fff;
       cursor: pointer;
-      font-size: 16px;
-      transition: all 0.2s ease;
+      transition: all 0.2s;
     }
+    .btn:focus, .btn:active, input:focus {
+      box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12) !important;
+      outline: none;
+    }
+    .btn-decrement {
+      border-bottom-left-radius: 50%;
+      border-top-left-radius: 50%;
+      border: none;
+    }
+    .btn-increment {
+      border-bottom-right-radius: 50%;
+      border-top-right-radius: 50%;
+      border: none;
+    }
+    .spinner-control {
+      display: flex;
+      width: 250px;
+      margin: 0 auto 10px auto;
+    }
+    .spinner-control input {
+      border: none;
+      background-color: #007bff;
+      color: #fff;
+      text-align: center;
+      z-index: 100;
+      width: 100%;
+      box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+      cursor: default;
+      font-size: 16px;
+    }
+    .form-spinner label {
+      width: 100%;
+      text-align: center;
+    }
+
     button.primary { background: #4CAF50; color: white; }
     button.secondary { background: #eee; color: #333; }
     button.secondary.active { background: #4CAF50; color: white; }
@@ -74,6 +105,29 @@
       padding: 15px;
       margin-top: 15px;
     }
+      /* Game buttons (renamed to avoid conflict with spinner buttons) */
+
+      .button-group {
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  gap: 10px;               /* space between buttons */
+  margin-top: 10px;        /* optional spacing above */
+}
+
+.game-btn {
+  padding: 10px 16px;
+  margin: 5px 5px 5px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.2s ease;
+}
+.game-btn-primary { background: #4CAF50; color: white; }
+.game-btn-secondary { background: #eee; color: #333; }
+.game-btn-secondary.active { background: #4CAF50; color: white; }
+.game-btn:disabled { background: #ccc; cursor: not-allowed; }
+
     @media screen and (min-width: 768px) {
       .card { flex-direction: row; align-items: flex-start; }
       .left { order: 1; }
@@ -87,10 +141,20 @@
     <div class="left">
       <p id="prompt"></p>
       <p id="propertyInfo" class="property-info"></p>
-      <input id="guessInput" type="number" placeholder="Enter your guess ($)">
+      
+      <div class="form-spinner">
+        <div class="spinner-control">
+          <button type="button" class="btn btn-decrement">-</button>
+          <input id="guessInput" type="number" value="500000" min="0" placeholder="Enter your guess ($)">
+          <button type="button" class="btn btn-increment">+</button>
+        </div>
+      </div>
+
       <div>
-        <button id="submitBtn" class="primary" onclick="checkGuess()">Submit Guess</button>
-        <button id="newPropertyBtn" class="secondary" onclick="newRound()" disabled>New Property</button>
+        <div class="button-group">
+  <button id="submitBtn" class="game-btn game-btn-primary" onclick="checkGuess()">Submit Guess</button>
+  <button id="newPropertyBtn" class="game-btn game-btn-secondary" onclick="newRound()" disabled>New Property</button>
+</div>
       </div>
       <div id="result" class="result" style="display: none;"></div>
     </div>
@@ -100,13 +164,12 @@
   </div>
 
 <script>
-  const THRESHOLD = 75; // accuracy cutoff
+  const THRESHOLD = 75;
   let properties = [];
   let current = null;
-  let currentIndex = 0; // <--- track position in feed
+  let currentIndex = 0;
   let attempts = 0;
 
-  // DOM references
   const submitBtn = document.getElementById("submitBtn");
   const newPropertyBtn = document.getElementById("newPropertyBtn");
   const resultDiv = document.getElementById("result");
@@ -115,14 +178,13 @@
   const imageContainer = document.getElementById("image-container");
   const guessInput = document.getElementById("guessInput");
 
-  // Funny comments
   const lowComments = [
-  c => `That’s a bargain for ${c.city}! This place costs way more.`,
-  c => `Nice try, but you won’t find prices that low in ${c.city} since 1995.`,
-  c => `This isn’t a yard sale in ${c.city} — aim higher!`,
-  c => `Dreaming of 2008 prices? Nope, it’s pricier in ${c.city} these days.`,
-  c => `For that price you’d be buying just the doormat in ${c.city}!` // 👈 new one
-];
+    c => `That’s a bargain for ${c.city}! This place costs way more.`,
+    c => `Nice try, but you won’t find prices that low in ${c.city} since 1995.`,
+    c => `This isn’t a yard sale in ${c.city} — aim higher!`,
+    c => `Dreaming of 2008 prices? Nope, it’s pricier in ${c.city} these days.`,
+    c => `For that price you’d be buying just the doormat in ${c.city}!`
+  ];
   const highComments = [
     c => `Woah there buddy — this is ${c.city}, not Bel Air!`,
     c => `At that price they’d throw in a free yacht… keep guessing!`,
@@ -157,24 +219,39 @@
   }
 
   function getNextProperty() {
-    while (
-      currentIndex < properties.length &&
-      (!properties[currentIndex].streetView ||
-        !properties[currentIndex].streetView.panoId ||
-        properties[currentIndex].streetView.panoId === "null")
-    ) {
-      currentIndex++;
-    }
-    if (currentIndex >= properties.length) return null;
-    return properties[currentIndex++];
+  if (currentIndex === 0) {
+    // First property: always the first in the feed
+    currentIndex++;
+    return properties[0];
   }
 
+  // Randomly pick a property after the first
+  let property = null;
+  let attempts = 0;
+  const maxAttempts = properties.length * 2; // avoid infinite loop
+
+  while (!property && attempts < maxAttempts) {
+    const idx = Math.floor(Math.random() * properties.length);
+    const candidate = properties[idx];
+
+    if (
+      candidate.streetView &&
+      candidate.streetView.panoId &&
+      candidate.streetView.panoId !== "null"
+    ) {
+      property = candidate;
+    }
+    attempts++;
+  }
+
+  return property;
+}
+
   function newRound() {
-    // Reset UI
     resultDiv.style.display = "none";
     propInfoEl.style.display = "none";
     propInfoEl.textContent = "";
-    guessInput.value = "";
+    guessInput.value = "500000";
     attempts = 0;
 
     submitBtn.disabled = false;
@@ -202,10 +279,10 @@
     if (current.streetView && current.streetView.panoId) {
       const panoId = current.streetView.panoId;
       const direction = current.streetView.direction ?? 0;
-      const url = `https://api.tripgeo.com/api/StreetViewImage/${panoId}_${direction}`;
       const lat = current.streetView.panoramaLat;
       const lng = current.streetView.panoramaLng;
       const gmapsUrl = `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${lat},${lng}&heading=${direction}`;
+      const url = `https://api.tripgeo.com/api/StreetViewImage/${panoId}_${direction}`;
       imageContainer.innerHTML = `
         <a href="${gmapsUrl}" target="_blank" title="Click to view in Google Maps" style="text-decoration:none;">
           <img src="${url}" alt="Street View" style="cursor:pointer;border-radius:10px;max-width:100%;height:auto;" />
@@ -221,60 +298,76 @@
     current._hints = formatHints(current);
   }
 
-  function checkGuess() {
-    const inputVal = guessInput.value;
-    const guess = parseInt(inputVal, 10);
-    if (!current || isNaN(guess)) return;
+function checkGuess() {
+  const guess = parseInt(guessInput.value, 10);
+  if (!current || isNaN(guess)) return;
 
-    attempts++;
+  attempts++;
+  propInfoEl.style.display = "none";
+
+  const actual = current.price;
+
+  // Calculate accuracy first
+  let accuracy = actual > 0 ? Math.max(0, (1 - Math.abs(actual - guess) / actual) * 100) : (guess === actual ? 100 : 0);
+  accuracy = Number(accuracy.toFixed(1));
+
+  // Check if guess is within threshold
+  if (accuracy >= THRESHOLD) {
+    resultDiv.innerHTML = `
+      <p><b>Actual Price:</b> $${actual.toLocaleString()}</p>
+      <p><b>Accuracy:</b> ${accuracy}%</p>
+      <p>🎉 Well done! It took you <b>${attempts}</b> attempt${attempts > 1 ? "s" : ""} to get within ${THRESHOLD}% of the price.</p>`;
     propInfoEl.style.display = "none";
-
-    const actual = current.price;
-
-    if (attempts === 1) {
-      const isLow = guess < actual;
-      const funny = randomComment(isLow);
-      const tip = `🗺️ You can click the Street View image to explore the neighborhood.`;
-      resultDiv.innerHTML = `<p>${funny}</p><p>${tip}</p>`;
-      resultDiv.style.display = "block";
-      return;
-    }
-
-    if (attempts === 2) {
-      const isLow = guess < actual;
-      const funny = randomComment(isLow);
-      const highLow = guess > actual ? "💰 The actual price is lower than your guess." : "💰 The actual price is higher than your guess.";
-      resultDiv.innerHTML = `<p>${funny}</p><p>${highLow}</p>`;
-      propInfoEl.innerHTML = `<b>Still way off.</b> Here are some clues: ${current._hints}`;
-      propInfoEl.style.display = "block";
-      resultDiv.style.display = "block";
-      return;
-    }
-
-    let accuracy = actual > 0 ? Math.max(0, (1 - Math.abs(actual - guess) / actual) * 100) : (guess === actual ? 100 : 0);
-    accuracy = Number(accuracy.toFixed(1));
-
-    const isLow = guess < actual;
-    const funny = randomComment(isLow);
-    const highLow = guess > actual ? "💰 The actual price is lower than your guess." : "💰 The actual price is higher than your guess.";
-
-    if (accuracy >= THRESHOLD) {
-      resultDiv.innerHTML = `
-        <p><b>Actual Price:</b> $${actual.toLocaleString()}</p>
-        <p><b>Accuracy:</b> ${accuracy}%</p>
-        <p>🎉 Well done! It took you <b>${attempts}</b> attempt${attempts > 1 ? "s" : ""} to get within ${THRESHOLD}% of the price.</p>`;
-      propInfoEl.style.display = "none";
-      newPropertyBtn.disabled = false;
-      newPropertyBtn.classList.add("active");
-      submitBtn.disabled = true;
-      submitBtn.classList.remove("primary");
-    } else {
-      resultDiv.innerHTML = `<p>${funny}</p><p><b>Accuracy:</b> ${accuracy}%</p><p>${highLow}</p>`;
-      propInfoEl.innerHTML = `<b>Still way off.</b> Here are some clues: ${current._hints}`;
-      propInfoEl.style.display = "block";
-    }
+    newPropertyBtn.disabled = false;
+    newPropertyBtn.classList.add("active");
+    submitBtn.disabled = true;
+    submitBtn.classList.remove("primary");
     resultDiv.style.display = "block";
+    return;
   }
+
+  // If not correct, show funny/hint messages based on attempt
+  const isLow = guess < actual;
+  const funny = randomComment(isLow);
+  const highLow = guess > actual ? "💰 The actual price is lower than your guess." : "💰 The actual price is higher than your guess.";
+
+  if (attempts === 1) {
+    const tip = `🗺️ You can click the Street View image to explore the neighborhood.`;
+    resultDiv.innerHTML = `<p>${funny}</p><p>${tip}</p>`;
+  } else if (attempts === 2) {
+    resultDiv.innerHTML = `<p>${funny}</p><p>${highLow}</p>`;
+    propInfoEl.innerHTML = `<b>Still way off.</b> Here are some clues: ${current._hints}`;
+    propInfoEl.style.display = "block";
+  } else {
+    resultDiv.innerHTML = `<p>${funny}</p><p><b>Accuracy:</b> ${accuracy}%</p><p>${highLow}</p>`;
+    propInfoEl.innerHTML = `<b>Still way off.</b> Here are some clues: ${current._hints}`;
+    propInfoEl.style.display = "block";
+  }
+
+  resultDiv.style.display = "block";
+}
+
+
+const incrementBtn = document.querySelector(".btn-increment");
+const decrementBtn = document.querySelector(".btn-decrement");
+
+function getStep(value) {
+  if (value < 50000) return 1000;         // small values
+  if (value < 500000) return 10000;       // medium values
+  return 50000;                            // 500k and above
+}
+
+incrementBtn.addEventListener("click", () => {
+  let val = parseInt(guessInput.value) || 0;
+  const step = getStep(val);
+  guessInput.value = val + step;
+});
+
+decrementBtn.addEventListener("click", () => {
+  let val = parseInt(guessInput.value) || 0;
+  const step = getStep(val);
+  guessInput.value = Math.max(0, val - step);
+});
 
   loadData();
 </script>
