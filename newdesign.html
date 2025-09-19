@@ -261,19 +261,19 @@ const button = document.getElementById('submit-btn');
  function formatWithCaret(el) {
   const start = el.selectionStart;
   const oldValue = el.value;
-  const raw = oldValue.replace(/\D/g, '');   // only digits
+  const raw = oldValue.replace(/\D/g, '');
 
-  const leftDigits = oldValue.slice(0, start).replace(/\D/g, '').length;
-
-  // clear only when the field is genuinely empty
-  if (oldValue.trim() === '') {
+  // if truly empty, leave blank
+  if (raw === '') {
     el.value = '';
     return;
   }
 
+  const leftDigits = oldValue.slice(0, start).replace(/\D/g, '').length;
   const formatted = Number(raw).toLocaleString('en-US');
   el.value = formatted;
 
+  // place caret just after the same # of digits (or at the end if fewer digits remain)
   let pos = 0, digitsSeen = 0;
   while (digitsSeen < leftDigits && pos < formatted.length) {
     if (/\d/.test(formatted[pos])) digitsSeen++;
