@@ -84,6 +84,24 @@ main {
   width: 100%;
 }
 
+      #price-input {
+  width: 100%;
+  border: 2px solid var(--gray-200);
+  border-radius: 9999px;
+  padding: 1rem 1.5rem;
+  padding-left: 2.5rem;
+  font-size: 1.875rem;
+  font-weight: bold;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#price-input:focus {
+  border-color: var(--primary-color);
+  outline: none;
+}
+
+
 .currency-symbol {
   position: absolute;
   left: 1rem;
@@ -218,7 +236,8 @@ input[type="number"]:focus {
       <div class="input-container">
         <div class="input-wrapper">
           <span class="currency-symbol">$</span>
-          <input id="price-input" placeholder="0" type="number" inputmode="numeric" />
+            <input id="price-input" placeholder="0" type="text" inputmode="numeric" />
+
         </div>
 
         <button id="submit-btn">Submit</button>
@@ -238,6 +257,47 @@ let lives = 5;
 
 const input = document.getElementById('price-input');
 const button = document.getElementById('submit-btn');
+
+      function formatWithCaret(el) {
+  const start = el.selectionStart;
+  const raw = el.value.replace(/\D/g, '');
+
+  if (!raw) {
+    el.value = '';
+    return;
+  }
+
+  // count commas before caret
+  const leftDigits = el.value.slice(0, start).replace(/\D/g, '').length;
+
+  const formatted = Number(raw).toLocaleString('en-US');
+  el.value = formatted;
+
+  // place caret after the same amount of digits
+  let pos = 0;
+  let digitsSeen = 0;
+  while (digitsSeen < leftDigits && pos < formatted.length) {
+    if (/\d/.test(formatted[pos])) digitsSeen++;
+    pos++;
+  }
+  el.setSelectionRange(pos, pos);
+}
+
+input.addEventListener('input', () => formatWithCaret(input));
+
+
+
+      input.addEventListener('input', () => {
+  // strip everything except digits
+  let digits = input.value.replace(/\D/g, '');
+  if (digits === '') {
+    input.value = '';
+    return;
+  }
+  // format with commas
+  input.value = Number(digits).toLocaleString('en-US');
+});
+
 
 // -------------------------------
 // Load property data
@@ -330,9 +390,9 @@ const linkedAgent = website
         <h2>Well done 🎉</h2>
         <p>You guessed the correct price in ${5 - lives + 1} attempts.</p>
         <p>
-           This ${currentProperty.bedrooms}-bedroom house in
-          ${currentProperty.city}, ${currentProperty.state} was built in ${currentProperty.yearBuilt}.
-          It costs <strong>$${currentProperty.price.toLocaleString()}</strong>.
+          This ${currentProperty.bedrooms}-bedroom house in
+          ${currentProperty.city}, ${currentProperty.state} was built in ${currentProperty.yearBuilt}. It
+          costs <strong>$${currentProperty.price.toLocaleString()}</strong>.
         </p>
         <p>Listed by ${linkedAgent}.</p>
       </div>`;
@@ -354,7 +414,7 @@ const linkedAgent = website
 // Handle price guesses
 // -------------------------------
 function submitGuess(value) {
-  const guess = Number(value);
+  const guess = Number(value.replace(/,/g, ''));   // <— strip commas
   if (isNaN(guess) || guess <= 0) {
     alert("Please enter a valid price.");
     return;
