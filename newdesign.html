@@ -261,13 +261,12 @@ const button = document.getElementById('submit-btn');
  function formatWithCaret(el) {
   const start = el.selectionStart;
   const oldValue = el.value;
-  const raw = oldValue.replace(/\D/g, '');      // digits only
+  const raw = oldValue.replace(/\D/g, '');   // only digits
 
-  // count how many digits were to the left of the caret
   const leftDigits = oldValue.slice(0, start).replace(/\D/g, '').length;
 
-  // if user really cleared everything, leave it blank
-  if (raw.length === 0) {
+  // clear only when the field is genuinely empty
+  if (oldValue.trim() === '') {
     el.value = '';
     return;
   }
@@ -275,7 +274,6 @@ const button = document.getElementById('submit-btn');
   const formatted = Number(raw).toLocaleString('en-US');
   el.value = formatted;
 
-  // put caret just after the same # of digits
   let pos = 0, digitsSeen = 0;
   while (digitsSeen < leftDigits && pos < formatted.length) {
     if (/\d/.test(formatted[pos])) digitsSeen++;
